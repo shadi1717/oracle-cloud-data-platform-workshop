@@ -39,4 +39,4 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 
 ## Access the Labs and Navigate to Lab 100
 
-- Access the labs using our user-friendly web interface here: [Cloud Data Platform Workshop](https://austindatamanagement.github.io/oracle-cloud-data-platform-workshop/)
+- Access the labs using our user-friendly web interface here: [Cloud Data Platform Workshop](https://austindatamanagement.github.io/oracle-cloud-data-platform-workshop/?lab=workshop-overview)
