@@ -7,14 +7,14 @@
 
 ## Introduction
 
-In this lab, you will learn how to provision an Oracle Digital Assistant instance and design a Skill in which you will implement your APIs from the APEX portion of this workshop.  These APIs will be utilized in order to make REST calls to the Autonomous Data Warehouse to get information on store predictions.  These REST API calls will be tested through interacting with the chatbot dialogue.
+In this lab, you will learn how to navigate to an Oracle Digital Assistant instance and design a Skill in which you will implement your APIs from the APEX portion of this workshop.  These APIs will be utilized in order to make REST calls to the Autonomous Data Warehouse to get information on store predictions.  These REST API calls will be tested through interacting with the chatbot dialogue.
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ### Objectives
 
--   Learn how to provision Oracle Digital Assistant (ODA)
--   Learn how to import/design an Oracle Digital Assistant Skill
+-   Learn how to navigate to an Oracle Digital Assistant (ODA)
+-   Learn how to design an Oracle Digital Assistant Skill
 -   Learn how to implement REST APIs through Digital Assistant
 -   Learn how to test Digital Assistant Dialogue
 
@@ -23,7 +23,7 @@ In this lab, you will learn how to provision an Oracle Digital Assistant instanc
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 -   The estimated time to complete this lab is 20 minutes.
 
-## Part 1. Provisioning a Digital Assistant Instance
+## Part 1. Navigating to a Digital Assistant Instance
 
 -   Inside of the OCI Console, click on the top left menu icon.
 
@@ -33,21 +33,17 @@ In this lab, you will learn how to provision an Oracle Digital Assistant instanc
 
 ![](./images/2.png " ")
 
--   On the Digital Assistant Instances screen, click on **Create a Digital Assistant Instance**.
+-   On the Digital Assistant Instances screen, find the **Compartment** drop down on the left, and select the **CloudDataWorkshop** compartment from the drop down list.
 
-![](./images/3.png " ")
+![](./images/600new0.png " ")
 
--   To create your Digital Assistant instance, first select the root compartment, or whichever compartment you provisioned your ADW instance in during Lab 100.  Use **"DemoDigitalAssistant"** for the name, and choose shape **Production**.  When you are finished, click **Create**.
+-   Once you have selected the correct compartment, find the **CloudDataWorkshop** Digital Assistant instance listed as shown below.
 
-![](./images/4.png " ")
+![](./images/600new1.png " ")
 
--   After clicking create, you will see your Digital Assistant instance listed, with the state 'Creating'.  This shouldn't take more than a couple of minutes to provision.
+-   Next, click on the three dots on the right of the instance listing, and select **Service Console**.
 
-![](./images/5.png " ")
-
--   Once the instance is fully provisioned, you will see the state changed to 'Active'.  Once this instance is active, click on the three dots on the right of the instance listing, and select **Service Console**.
-
-![](./images/6.png " ")
+![](./images/600new2.png " ")
 
 -   Note: feel free to learn more about Oracle Digital Assistant (ODA) by clicking on the following text link: [ODA Overview](https://www.oracle.com/application-development/cloud-services/digital-assistant/)
 
@@ -74,15 +70,19 @@ In this lab, you will learn how to provision an Oracle Digital Assistant instanc
 
 ![](./images/10.png " ")
 
--   You will download a dataset file from this workshop to load into ODA. You can download it by right clicking on the following text link and selecting **Save link as**. Keep the default options when downloading: [Download DemoDigitalAssistantSkill.zip here](./files/DemoDigitalAssistantSkill.zip). Then, open your browser window again back to the Oracle Digital Assistant page.
-
--   Once you are back on the Skills tab, click **Import Skill**.  Select the **DemoDigitalAssistantSkill.zip** you just downloaded for the workshop.
-
-![](./images/11.png " ")
-
--   Once imported, you will need to refresh your browser, then you should see the 'Demo Digital Assistant Skill' on your Skills screen.  Click on **Demo Digital Assistant Skill**.
+-   On the Skills page, find the **Demo Digital Assistant Skill**.
 
 ![](./images/12.png " ")
+
+-   On the skill, click on the **hamburger icon** in the bottom right corner.  Then, click **Clone**.
+
+![](./images/600new3.png " ")
+
+-   Enter a name for your cloned Skill in a similar format as shown below, **DA\_FIRSTNAME\_LASTNAME** for both Display Name and Name.  Be sure to also check the box **Open cloned skill afterwards**.  Finally, click **Clone**.
+
+![](./images/600new4.png " ")
+
+-   Your digital assistant is now created!  You are now ready to implement your APEX APIs.
 
 ## Part 3. Implement REST APIs into Digital Assistant to access data from ADW
 

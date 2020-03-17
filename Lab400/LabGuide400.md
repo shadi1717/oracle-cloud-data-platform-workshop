@@ -7,13 +7,13 @@
 
 ## Introduction
 
-This lab walks you through the steps to provision an Oracle Analytics Cloud (OAC) instance and connect it to your Autonomous Data Warehouse (ADW) instance.
+This lab walks you through the steps to use an existing Oracle Analytics Cloud (OAC) instance to connect to your Autonomous Data Warehouse (ADW) instance.
 
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ### Objectives
--   Learn how to provision a new Oracle Analytics Cloud instance
+-   Learn how to navigate to an Oracle Analytics Cloud instance
 -   Learn how to connect the OAC instance to your ADW instance
 
 ### Required Artifacts
@@ -21,9 +21,9 @@ This lab walks you through the steps to provision an Oracle Analytics Cloud (OAC
 -   The estimated time to complete this lab is 40 minutes.
 
 
-## Part 1. Create an OAC Instance
+## Part 1. Navigate to an OAC Instance
 
-### **STEP 1**: Create an OAC Instance
+### **STEP 1**: Go to the Analytics Cloud Instance Page
 
 -   Sign in to cloud.oracle.com with your account credentials as done in the previous labs.
 
@@ -31,29 +31,13 @@ This lab walks you through the steps to provision an Oracle Analytics Cloud (OAC
 
 ![](./images/0a.png " ")
 
--   Click on **Create Instance**.
+-   Find the **CloudDataWorkshop** instance listed as shown below.
 
-![](./images/0b.png " ")
+![](./images/400new1.png " ")
 
--   Provide all the required information (fields specified by \*). For the **Instance Name**, input **OACDEMO**. For the **Region**, select from the dropdown box the same region as your ADW instance. For the **Number of OCPUs**, select from the dropdown box **2**.
+-   In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page. Save this web page link for future use.
 
-![](./images/0c.png " ")
-
--   Then click on **Next**.
-
--   After validating your configuration, click on **Create**.
-
-![](./images/0d.png " ")
-
--   It will take a few minutes until your instance is fully provisioned and ready to use. Note the Status and the sign which indicate that the service is being creating. Wait until this process is fully completed.
-
-![](./images/0e.png " ")
-
--   Note: feel free to learn more about Oracle Analytics Cloud (OAC) by clicking on the following text link: [OAC Overview](https://www.oracle.com/business-analytics/analytics-cloud.html)
-
--   After a few minutes refresh your page and you will see the status and the sign are disappeared. Now your OAC instance is ready. In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page. Save this web page link for future use.
-
-![](./images/0f.png " ")
+![](./images/400new2.png " ")
 
 -   Welcome to the Oracle Analytics Cloud! Enjoy exploring it!
 
@@ -76,7 +60,7 @@ This lab walks you through the steps to provision an Oracle Analytics Cloud (OAC
 
 -   You should fill the following connection fields, then click **Save**:
 
--   **Connection Name:** Type a name for this connection. For this lab, use **ADWDEMO**.
+-   **Connection Name:** Type a name for this connection. For this, use the name you specified for your ADW: **ADW\_FIRSTNAME\_LASTNAME**. Note: In the screenshot below, it is shown as simply "ADWDEMO".
 
 -   **Client Credentials:** Click on **‘Select’** and select the zipped **Wallet** file (The **cwallet.sso** file will be automatically extracted from the **Wallet** file)
 
@@ -84,7 +68,7 @@ This lab walks you through the steps to provision an Oracle Analytics Cloud (OAC
 
 -   **Password:** The password you specified during the provisioning of your ADW instance.
 
--   **Service Name:** Select your database name and desired service level (low, medium, high) from the drop down list. For this lab, select your instance service named **ADWDEMO_high**.
+-   **Service Name:** Select your database name and desired service level (low, medium, high) from the drop down list. For this lab, select your instance service named **ADW\_FIRSTNAME\_LASTNAME\_high**.
 
 ![](./images/0j.png " ")
 

@@ -46,13 +46,17 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 
 ### **STEP 2**: Create an ADW Instance
 
+-   If after logging in, you are taken to the screen below, click on **Infrastructure Dashboard**.  If you do not see the screen below when you login, skip this step and move on to the next step below.
+
+![](./images/infrastructuredash.png " ")
+
 -   Once you are logged in, you are taken to the OCI Console. Click **Create a data warehouse**
 
 ![](./images/Part_1_Step_2_1.png " ")
 
--  This will bring up the Create Autonomous Data Warehouse screen where you will specify the configurations of the instance. Compartments are used to organize resources in the Cloud. We will use the default compartment, the root compartment, for this workshop. Feel free to use another compartment of your choice however.
+-  This will bring up the Create Autonomous Data Warehouse screen where you will specify the configurations of the instance. Compartments are used to organize resources in the Cloud. Using the drop down, select **CloudDataWorkshop** from the compartment list.
 
--  Specify a memorable display name for the instance. Also specify your database's name, use **ADWDEMO** for this lab.
+-  Specify a memorable display name for the instance. Also specify your database's name, use **ADW\_FIRSTNAME\_LASTNAME** for this lab.
 
 ![](./images/adw0.png " ")
 
@@ -72,7 +76,7 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 
 ![](./images/adw3img.png " ")
 
--  Your instance will begin provisioning. Once the state goes from Provisioning to Available, click on your ADW display name to see its details.
+-  Your instance will begin provisioning. Once the state goes from Provisioning to Available, click on your ADW display name to see its details.  Note: Here, the name is ADWDEMO, but instead, you should see your **ADW\_FIRSTNAME\_LASTNAME**.
 
 ![](./images/Part_1_Step_2_5.png " ")
 
