@@ -43,6 +43,32 @@ This lab walks you through the steps on how you can use the Oracle Analytics Clo
 
 ![](./images/2.png " ")
 
+-   Scroll down until you see the **ITEM_NAME** column.  **Right click** on this column and select **Explain ITEM_NAME**.
+
+![](./images/2a.png " ")
+
+-   A window will pop up Explaining the attribute **ITEM_NAME**.  Explain analyzes the selected column within the context of its data set and generates text descriptions about the insights it finds.  Explain uses Oracle's machine learning to generate accurate, fast, and powerful information about your data.  Explain automatically applies machine learning's statistical analysis to find the most significant patterns, correlations (drivers), classifications, and anomalies in your data.
+
+![](./images/2b.png " ")
+
+-   Click through the four tabs in the Explain window: Basic Facts, Key Drivers, Segments that Explain, and Anomalies.  Note: These sections can often take 4-5 minutes to load data, as they are searching through a considerably large data set to produce these visualizations.
+
+-   When you are finished navigating through all of the tabs in the Explain feature to get some initial insights on the ITEM_NAME column, **close out** of the Explain window to return to your canvas.
+
+-   Next, you can begin making visualizations with your data.  From the list of data columns on the left, select **STORE_ADDRESS** and **QUANTITY**.  You can select them both at once by holding down either ctrl (Windows/Linux) or command (MacOS) depending on your operating system.  Once these two are both selected, you can simply drag these columns into the canvas on the right, automatically forming a visualization in the form of a bar graph.
+
+![](./images/2c.png " ")
+
+![](./images/2d.png " ")
+
+-   Next, navigate to the dropdown on the top left of your canvas where it says 'Auto Visualization'.  Click into this drop down, and select the **Language Narrative** chart type, denoted by a text bubble.
+
+![](./images/2e.png " ")
+
+-   This Natural Language Generation will take your visualization and actually convert that into text format so that you can get a better understanding of the underlying patterns represented in your visualization.  After reading, you can navigate to the **plus sign** on the bottom of the canvas shown in the screenshot below.  **Click** this plus sign to add a new canvas before you move onto the next step.
+
+![](./images/2f.png " ")
+
 -   Select these three columns **STORE_ADDRESS**, **TRANSACTIONS**, **SALES** together from the dropdown by holding down either ctrl (Windows/Linux) or command (MacOS) depending on your operating system. Once all three are selected together, right click and select **Pick Visualization...**.
 
 ![](./images/3.png " ")
