@@ -23,6 +23,11 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 -   The estimated time to complete this lab is 30 minutes.
 
+### Extra Resources
+-   To learn more about Oracle Autonomous Data Warehouse (ADW), feel free to watch the following video by clicking on this link: [ADW - How it Works](https://www.youtube.com/watch?v=f4BurlkdEQM)
+-   To learn more about Oracle Application Express (APEX), feel free to explore the capabilities by clicking on this link: [APEX Overview](https://apex.oracle.com/en/)
+-   Additionally, to see an example of what kind of sites and apps are possible to quickly create with APEX, check out a showcase by clicking on this link: [Built with APEX](https://www.builtwithapex.com/)
+
 
 ## Part 1. Provisioning an ADW Instance
 
@@ -126,9 +131,11 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 ![](./images/Part_2_Step_2_1.png " ")
 
--   Then, create a Database User and Workspace Name. For this workshop, use DEVELOPER for both.
+-   Then, create a Database User and Workspace Name. For this workshop, use **DEVELOPER** for both. 
 
--   Then, specify a password for the DEVELOPER user. Make a note of this password.
+-   **Note**: it is essential you make sure to use **DEVELOPER** as many files and configurations in later labs depend on it. Please do not use a different name here for this workshop.
+
+-   Then, specify a password for the **DEVELOPER** user you just created. Make a note of this password.
 
 -   Click **Create Workspace** to continue.
 

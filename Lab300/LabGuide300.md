@@ -17,10 +17,12 @@ This lab walks you through the steps to enabling Oracle Restful Data Services (O
 -   Learn how to import SQL queries as APIs in APEX
 -   Learn how to create a REST API using APEX
 
-
 ### Required Artifacts
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 -   The estimated time to complete this lab is 20 minutes.
+
+### Extra Resources
+-   To learn more about Oracle REST Data Services (ORDS), feel free to explore the capabilities by clicking on this link: [ORDS Documentation](https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/19.4/index.html)
 
 
 ## Part 1. Enable ORDS

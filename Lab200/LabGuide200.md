@@ -17,10 +17,13 @@ This lab walks you through the steps to make an OML user and use SQL Developer a
 -   Learn how to grant user privileges using SQL developer web
 -   Learn how to run an OML script
 
-
 ### Required Artifacts
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 -   The estimated time to complete this lab is 30 minutes.
+
+### Extra Resources
+-   To learn more about Oracle Machine Learning (OML), feel free to explore the capabilities by clicking on this link: [OML Overview](https://www.oracle.com/database/technologies/datawarehouse-bigdata/oml-notebooks.html)
+-   To learn more about SQL Developer Web, feel free to explore the capabilities by clicking on this link: [SQL Developer Web Documentation](https://docs.oracle.com/en/database/oracle/sql-developer-web/18.1/sdweb/sdw-about.html#GUID-AF7601F9-7713-4ECC-8EC9-FB0296002C69)
 
 
 ## Part 1. Creating an OML User and Using SQL Developer Web
@@ -133,7 +136,7 @@ This lab walks you through the steps to make an OML user and use SQL Developer a
 
 -   Then, in order for the intepreter binding to go through, refresh your browser window by clicking on your browser's **refresh icon**. The OML code should appear with colors now, signalling that the intepreter is correctly interpreting the code as SQL.
 
--   Now we have to run the scripts in the ML Notebook. Some notebooks may take longer to run than others. In particular, the "Build the Store Prediction Model" script will likely take up to 10 minutes to fully run. This is an important step in building the ML model, so be sure to be patient and wait until this script completely finishes each code block.
+-   Now we have to run the scripts in the ML Notebook. Some notebooks may take longer to run than others. In particular, the "build glm model" script block will likely take up to 10 minutes to fully run. This is an important step in building the ML model, so be sure to be patient and wait until this script completely finishes each code block.
 
 -   Select the "Run all Paragraphs" button at the top of the screen, highlighted in the image below. You should see output messages at the end of code blocks indicating the time taken to complete running the code. There should be no **outdated** tags at the end of these output messages. This is how you will confirm that each code block runs successfully at the end of running the entire notebook. 
 

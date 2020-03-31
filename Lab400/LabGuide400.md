@@ -20,6 +20,9 @@ This lab walks you through the steps to use an existing Oracle Analytics Cloud (
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 -   The estimated time to complete this lab is 40 minutes.
 
+### Extra Resources
+-   To learn more about Oracle Analytics Cloud (OAC), feel free to explore the capabilities by clicking on this link: [OAC Overview](https://www.oracle.com/business-analytics/analytics-cloud.html)
+
 
 ## Part 1. Navigate to an OAC Instance
 

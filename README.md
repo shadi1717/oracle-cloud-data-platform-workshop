@@ -14,6 +14,11 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 
 ![](./LabOverview/images/cloud-data-construction-arch.jpg " ")
 
+**Note**: This lab is intended to be a comprehensive full cloud showcase. As such, it is assumed a user going through this workshop will be provisioning resources and creating users from scratch. If you decide to use existing infrastructure or resources, be aware and keep note of your namings so resources don't overlap and conflict. 
+
+**Note**: Additionally, as much as possible, do not stray away from the naming conventions used for resources in this worshop. You may run into errors if you do.
+
+
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ### Objectives
@@ -27,6 +32,7 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 ### Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will either be supplied by your instructor, or can be obtained through the following steps.
 - A cloud tenancy where you have the resources available to provision an ADW instance with 2 OCPUs, an OAC instance with 2 OCPUs, and an ODA instance.
+- Oracle Cloud Infrastructure supports the following browsers and versions: Google Chrome 69 or later, Safari 12.1 or later, Firefox 62 or later.
 
 ## Acquire Oracle Cloud Account and Sign-in
 

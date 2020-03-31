@@ -18,7 +18,10 @@ This lab walks you through the steps on how you can use the Oracle Analytics Clo
 
 ### Required Artifacts
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
--   The estimated time to complete this lab is 5 minutes.
+-   The estimated time to complete this lab is 10 minutes.
+
+### Extra Resources
+-   To learn more about Oracle Analytics Cloud (OAC), feel free to explore the capabilities by clicking on this link: [OAC Overview](https://www.oracle.com/business-analytics/analytics-cloud.html)
 
 
 ## Part 1. Visualize results in OAC
@@ -44,7 +47,7 @@ This lab walks you through the steps on how you can use the Oracle Analytics Clo
 
 ![](./images/3.png " ")
 
--   Then, click on the **Table Icon** to make a **Table** visualization. The visualization will appear on the right.
+-   Then, click on the **Table Icon** to make a **Table** visualization. The visualization will appear on the right. The visualization may look slightly different and have different colors from the ones that appear here in the workshop.
 
 ![](./images/4.png " ")
 

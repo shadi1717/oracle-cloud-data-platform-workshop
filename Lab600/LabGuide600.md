@@ -23,6 +23,11 @@ In this lab, you will learn how to navigate to an Oracle Digital Assistant insta
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 -   The estimated time to complete this lab is 20 minutes.
 
+### Extra Resources
+-   To learn more about Oracle Digital Assistant (ODA), feel free to watch the following video by clicking on this link: [ODA Summary](https://www.youtube.com/watch?v=byXa6tIgyKY)
+-   Additionally, feel free to explore ODA's capabilities by clicking on this link: [ODA Overview](https://www.oracle.com/application-development/cloud-services/digital-assistant/)
+
+
 ## Part 1. Navigating to a Digital Assistant Instance
 
 -   Inside of the OCI Console, click on the top left menu icon.
