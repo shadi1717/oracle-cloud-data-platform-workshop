@@ -43,7 +43,7 @@ This lab walks you through the steps on how you can use the Oracle Analytics Clo
 
 ![](./images/2.png " ")
 
--   Scroll down until you see the **ITEM_NAME** column.  **Right click** on this column and select **Explain ITEM_NAME**.
+-   Scroll down until you see the **ITEM\_NAME** column.  **Right click** on this column and select **Explain ITEM\_NAME**.
 
 ![](./images/2a.png " ")
 
