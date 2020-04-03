@@ -9,7 +9,7 @@
 
 In this lab, you will learn how to navigate to an Oracle Digital Assistant instance and design a Skill in which you will implement your APIs from the APEX portion of this workshop.  These APIs will be utilized in order to make REST calls to the Autonomous Data Warehouse to get information on store predictions.  These REST API calls will be tested through interacting with the chatbot dialogue.
 
-*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link below and signing in with your Oracle SSO:
+*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link and signing in with your Oracle SSO:
 [Lab 600 Walkthrough Video](https://otube.oracle.com/media/Lab+600A+Implementing+APIs+into+ODA/0_f8nheacr)
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.

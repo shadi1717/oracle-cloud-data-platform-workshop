@@ -9,7 +9,7 @@
 
 This lab walks you through the steps to use an existing Oracle Analytics Cloud (OAC) instance to connect to your Autonomous Data Warehouse (ADW) instance.
 
-*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link below and signing in with your Oracle SSO:
+*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link and signing in with your Oracle SSO:
 [Lab 400 Walkthrough Video](https://otube.oracle.com/media/Lab+400A+Getting+Started+with+OAC/0_kmhc3x9v)
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
