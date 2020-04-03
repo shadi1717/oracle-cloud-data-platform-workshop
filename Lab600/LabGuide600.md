@@ -9,6 +9,9 @@
 
 In this lab, you will learn how to navigate to an Oracle Digital Assistant instance and design a Skill in which you will implement your APIs from the APEX portion of this workshop.  These APIs will be utilized in order to make REST calls to the Autonomous Data Warehouse to get information on store predictions.  These REST API calls will be tested through interacting with the chatbot dialogue.
 
+*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link below and signing in with your Oracle SSO:
+[Lab 600 Walkthrough Video](https://otube.oracle.com/media/Lab+600A+Implementing+APIs+into+ODA/0_f8nheacr)
+
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ### Objectives
@@ -137,6 +140,8 @@ In this lab, you will learn how to navigate to an Oracle Digital Assistant insta
 
 -   In this lab, you provisioned Oracle Digital Assistant (ODA), imported/designed an Oracle Digital Assistant Skill, implemented REST APIs through Digital Assistant, and tested Digital Assistant Dialogue.
 
-- **You have completed all of the labs! Congratulations for completing the Oracle’s Cloud Data Platform: Autonomous-Driven & AI-Infused Workshop!**
+-   **You have completed all of the labs! Congratulations for completing the Oracle’s Cloud Data Platform: Autonomous-Driven & AI-Infused Workshop!**
+
+-   Again, to recap, throughout this workshop, you experienced a wide breadth of the Oracle Cloud Data Plaform and its extensive capabilities! You provisioned and leveraged Oracle Cloud services such as Autonomous Data Warehouse (ADW), Application Express (APEX), Oracle Machine Learning (OML), SQL Developer Web, Oracle Analytics Cloud (OAC), Oracle Rest Data Services (ORDS), and, in the bonus lab, Oracle Digital Assistant (ODA). In this process, you journeyed to the Cloud to build a full fledged solution. You have a database for your needs, an app that interfaces with actionable analytic insights and machine learning models, and a chatbot that you can easily interact with using natural speech. Congratulations!
 
 [Back to top](#introduction)
