@@ -117,7 +117,9 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 ![](./images/Part_2_Step_1_2.png " ")
 
--   Next, continue by clicking on **Oracle APEX**.
+-   Next, continue by clicking on **Oracle APEX**. 
+
+-  **Note**: APEX is an additional service included with your ADW but it may take a few minutes for it to completely start up after just provisioning the ADW instance. This should only occur once.
 
 ![](./images/Part_2_Step_1_3.png " ")
 

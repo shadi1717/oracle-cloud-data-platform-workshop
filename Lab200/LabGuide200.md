@@ -36,6 +36,8 @@ This lab walks you through the steps to make an OML user and use SQL Developer a
 
 -   Click the **Administration** tab and click **Manage Oracle ML Users** to go to the OML user management page.
 
+-   **Note**: OML is an additional service included with your ADW but it may take a few minutes for it to completely start up after just provisioning the ADW instance. This should only occur once.
+
 ![](./images/2.png " ")
 
 -   This will open a new tab within your browser that may ask you for a username and password. You may receive an **Insufficient Privileges** error. If you do, continue by clicking on the top right **Person Icon** and then on **Sign Out**.
