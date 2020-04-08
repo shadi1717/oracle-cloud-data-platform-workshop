@@ -47,29 +47,61 @@ This lab walks you through the steps on how you can use the Oracle Analytics Clo
 
 ![](./images/2a.png " ")
 
--   A window will pop up Explaining the attribute **ITEM_NAME**.  Explain analyzes the selected column within the context of its data set and generates text descriptions about the insights it finds.  Explain uses Oracle's machine learning to generate accurate, fast, and powerful information about your data.  Explain automatically applies machine learning's statistical analysis to find the most significant patterns, correlations (drivers), classifications, and anomalies in your data.
+-   A window will pop up Explaining the attribute **ITEM_NAME**.  Explain analyzes the selected column within the context of its data set and generates text descriptions about the insights it finds.  Explain uses Oracle's machine learning to generate accurate, fast, and powerful information about your data.  Explain automatically applies machine learning's statistical analysis to find the most significant patterns, correlations (drivers), classifications, and anomalies in your data.  Note: These sections can often take 4-5 minutes to load data, as they are searching through a considerably large data set to produce these visualizations.
 
-![](./images/2b.png " ")
+-   When the Explain window opens, you will first see Basic Facts about ITEM_NAME.  This page displays the basic distribution of the column's values. Column data is broken down against each of the data set's measures to give you some initial insights into what different values the column contains.  After getting some initial insights, **hover over** the top right corner of the donut chart to reveal a check mark, as shown in the image below.  **Click** on this **check mark**.  By doing this, you are selecting this visualization to later be added to your canvas.
 
--   Click through the four tabs in the Explain window: Basic Facts, Key Drivers, Segments that Explain, and Anomalies.  Note: These sections can often take 4-5 minutes to load data, as they are searching through a considerably large data set to produce these visualizations.
+![](./images/2b1.png " ")
 
--   When you are finished navigating through all of the tabs in the Explain feature to get some initial insights on the ITEM_NAME column, **close out** of the Explain window to return to your canvas.
+-   Now, **click** the next tab: **Key Drivers of ITEM_NAME**.  This page shows the columns in the data set that have the highest degree of correlation with the selected column outcome. Charts display the distribution of the selected value across each correlated attributes value.  Look through the different charts available.  Again, **hover over** the top right corner of one of the charts, and **click** the check mark, as shown in the image below.
 
--   Next, you can begin making visualizations with your data.  From the list of data columns on the left, select **STORE_ADDRESS** and **QUANTITY**.  You can select them both at once by holding down either ctrl (Windows/Linux) or command (MacOS) depending on your operating system.  Once these two are both selected, you can simply drag these columns into the canvas on the right, automatically forming a visualization in the form of a bar graph.
+![](./images/2b2.png " ")
 
-![](./images/2c.png " ")
+-   Next, **click** on the subsequent tab: **Segments that Explain ITEM_NAME**.  On this page, an algorithm is run on the data to determine data value intersections and identify ranges of values across all dimensions that generate the highest probability for a given outcome of the attribute.  Note: Depending on your screen size, you may need to scroll down a bit under the chart to see more information on what the chart is outlining.
 
-![](./images/2d.png " ")
+![](./images/2b3.png " ")
 
--   Next, navigate to the dropdown on the top left of your canvas where it says 'Auto Visualization'.  Click into this drop down, and select the **Language Narrative** chart type, denoted by a text bubble.
+-   Finally, **click** on the last tab: **Anomalies of ITEM_NAME**.  You can scroll through this page to see charts that identify anomalies in your data set.  This page identifies a series of values where one of the values deviates substantially from what the regression algorithms expect.  After looking through the charts on this page, again **hover over** the top right corner of one of the charts and **click** on the check mark to select this graph to add it to your canvas.
 
-![](./images/2e.png " ")
+![](./images/2b4.png " ")
 
--   This Natural Language Generation will take your visualization and actually convert that into text format so that you can get a better understanding of the underlying patterns represented in your visualization.  After reading, you can navigate to the **plus sign** on the bottom of the canvas shown in the screenshot below.  **Click** this plus sign to add a new canvas before you move onto the next step.
+-   Now that you have used the Explain feature to look through various initial insights on ITEM_NAME, navigate to the upper right corner of the Explain window and click on **Add Selected**.
 
-![](./images/2f.png " ")
+![](./images/2b5.png " ")
 
--   Select these three columns **STORE_ADDRESS**, **TRANSACTIONS**, **SALES** together from the dropdown by holding down either ctrl (Windows/Linux) or command (MacOS) depending on your operating system. Once all three are selected together, right click and select **Pick Visualization...**.
+-   All of the visualizations that you selected should now appear on your first canvas!
+
+![](./images/2b6.png " ")
+
+-   Now, let's add another canvas by clicking on the **plus sign** on the bottom of your screen as shown in the image below.
+
+![](./images/2b7.png " ")
+
+-   On this new canvas, we will add a new visual. From the list of data columns on the left, select **STORE_ADDRESS** and **QUANTITY**.  You can select them both at once by holding down either ctrl (Windows/Linux) or command (MacOS) depending on your operating system.  Once these two are both selected, **right click** and select **Create Best Visualization**.
+
+![](./images/2b8.png " ")
+
+-   By selecting this option, OAC will intelligently create the best graph for your data; in this case, a bar graph.  On your chart, navigate to the menu upper right corner and **click**, as shown in the image below.
+
+![](./images/2b9.png " ")
+
+-   In this menu, navigate to **Edit**, then click on **Duplicate Visualization**.
+
+![](./images/2b10.png " ")
+
+-   Now, you should have two copies of your bar chart on your canvas.  Next, we are going to utilize the Natural Language Generation capabilities of OAC, so it will be helpful to have these charts side-by-side.
+
+-   Navigate to the dropdown on the top left of your canvas where it says 'Auto Visualization'.  Click into this drop down, and select the **Language Narrative** chart type, denoted by a text bubble.
+
+![](./images/2b11.png " ")
+
+-   This Natural Language Generation will take your visualization and actually convert that into text format so that you can get a better understanding of the underlying patterns represented in your visualization.  With this explanation right next to your chart, you can use the Natural Language Generation to notice the trends and patterns of your visualization.  
+
+-   After reading, you can navigate to the **plus sign** on the bottom of the canvas shown in the screenshot below.  **Click** this plus sign to add a new canvas before you move onto the next step.
+
+![](./images/2b12.png " ")
+
+-   On this new Canvas, select these three columns **STORE_ADDRESS**, **TRANSACTIONS**, **SALES** together from the dropdown by holding down either ctrl (Windows/Linux) or command (MacOS) depending on your operating system. Once all three are selected together, right click and select **Pick Visualization...**.
 
 ![](./images/3.png " ")
 
