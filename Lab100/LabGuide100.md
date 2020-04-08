@@ -9,6 +9,8 @@
 
 This lab walks you through the steps to get started using the Oracle Autonomous Data Warehouse (ADW) and Oracle Application Express (APEX) provided with your Autonomous Data Warehouse on Oracle Infrastructure Cloud (OCI). You will provision a new ADW instance as well as use APEX to create a workspace and user, load data, and create an app.
 
+*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link and signing in with your Oracle SSO:
+[Lab 100 Walkthrough Video](https://otube.oracle.com/media/Lab100A+ADW+and+APEX+Essentials/0_dluujk0s)
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
@@ -117,7 +119,9 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 ![](./images/Part_2_Step_1_2.png " ")
 
--   Next, continue by clicking on **Oracle APEX**.
+-   Next, continue by clicking on **Oracle APEX**. 
+
+-  **Note**: APEX is an additional service included with your ADW but it may take a few minutes for it to completely start up after just provisioning the ADW instance. This should only occur once.
 
 ![](./images/Part_2_Step_1_3.png " ")
 

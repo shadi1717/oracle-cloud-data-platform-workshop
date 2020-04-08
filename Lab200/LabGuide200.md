@@ -9,6 +9,8 @@
 
 This lab walks you through the steps to make an OML user and use SQL Developer as an interface to the ADW instance for granting user privileges. Then you will use OML to run a SQL script to generate machine learning models.
 
+*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link and signing in with your Oracle SSO:
+[Lab 200 Walkthrough Video](https://otube.oracle.com/media/Lab200A+Machine+Learning+with+ADW/0_xa5dg572)
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
@@ -35,6 +37,8 @@ This lab walks you through the steps to make an OML user and use SQL Developer a
 ![](./images/1.png " ")
 
 -   Click the **Administration** tab and click **Manage Oracle ML Users** to go to the OML user management page.
+
+-   **Note**: OML is an additional service included with your ADW but it may take a few minutes for it to completely start up after just provisioning the ADW instance. This should only occur once.
 
 ![](./images/2.png " ")
 
