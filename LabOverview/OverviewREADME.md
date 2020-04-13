@@ -15,7 +15,7 @@ Autonomous-Driven & AI-Infused** workshop. This workshop will walk you through t
 
 You will take on 2 Personas during the workshop. The **Data Scientist Persona** will prepare the data for training and validating the machine learning models and apply those models in order to predict the future demand. The **Business Analyst Persona** will also build and apply Machine Learning models using Oracle Analytics Cloud service without writing a single line of code. During the workshop, you will get exposure to Oracle Autonomous Data Warehouse (ADW), Oracle Machine Learning tool (OML), Oracle Analytics Cloud Service (OAC), Oracle Application Express (APEX), Oracle Rest Data Service (ORDS), and the Oracle Digital Assistant (ODA) chatbot.
 
-Here is an example of that Cloud Data Platform Architecture which can be extended with further Oracle services such as federation through Identity Cloud Service (IDCS) and Oracle Integration Cloud (OIC):
+To get an idea of how these services correlate to one another, here is an example of that Cloud Data Platform Architecture which can be extended with further Oracle services such as user federation through Identity Cloud Service (IDCS) and Oracle Integration Cloud (OIC):
 
 ![](./images/cloud-data-construction-arch.jpg " ")
 
@@ -44,7 +44,7 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 
 ### Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will either be supplied by your instructor, or can be obtained through the following steps.
-- A cloud tenancy where you have the resources available to provision an ADW instance with 2 OCPUs, an OAC instance with 2 OCPUs, and an ODA instance.
+- A cloud tenancy where you have the resources available to provision an ADW instance with 2 OCPUs, an OAC instance with 2 OCPUs, and an ODA instance. To see which services are available in your region, please click on the following link: [Region Services List](https://www.oracle.com/cloud/data-regions.html#northamerica)
 - Oracle Cloud Infrastructure supports the following browsers and versions: Google Chrome 69 or later, Safari 12.1 or later, Firefox 62 or later.
 
 ## Acquire Oracle Cloud Account and Sign-in
@@ -52,7 +52,7 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 ### Step 1: Acquire an Oracle Cloud Trial or Workshop Account
 - Bookmark this page for future reference.
 
-- Please click on the URL to create your <a class=“trial-link”  href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&SC=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&pcode=NAMK190227P00084" target="trial">Free Account</a> and complete all the required steps. When you complete the registration process you'll receive a $300 credit that will enable you to complete the lab for free. Additionally, you'll have 1000s of hours left over to continue to explore the Oracle Cloud.
+- Please click on the URL to create your <a class=“trial-link”  href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&SC=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&pcode=NAMK190227P00084" target="trial">Free Account</a> and complete all the required steps. When you complete the registration process you'll receive a $300 credit that will enable you to complete the lab for free. Additionally, you'll have access to a never-expiring Oracle Cloud account allowing you to explore even more capabilities of the Oracle Cloud.
 
 - Soon after requesting your trial you will receive the following email. You may begin working on this lab once you receive this email.
 
