@@ -35,7 +35,7 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 
 ### **STEP 1**: Sign in to Oracle Cloud
 
--   Go to [cloud.oracle.com](https://cloud.oracle.com), click on the **Person Icon** 
+-   Go to [cloud.oracle.com](https://cloud.oracle.com), click on the **Portrait Icon** 
 
 ![](./images/Part_1_Step_1_1.png " ")
 
@@ -71,7 +71,7 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 
 ![](./images/adw1img.png " ")
 
--  Uncheck Auto scaling for the purposes of this workshop.
+-  Do not check "Auto scaling" for the purposes of this workshop.
 
 -  Then, specify an ADMIN password for the instance, and a confirmation of it. Make a note of this password.
 
@@ -83,7 +83,7 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 
 ![](./images/adw3img.png " ")
 
--  Your instance will begin provisioning. Once the state goes from Provisioning to Available, click on your ADW display name to see its details.  Note: Here, the name is ADWDEMO, but instead, you should see your **ADW\_FIRSTNAME\_LASTNAME**.
+-  Your instance will begin provisioning. Once the state goes from Provisioning to Available, you will see details about it. You can always click on your ADW display name from the OCI cloud console to see these details.  Note: Here, the name is ADWDEMO, but instead, you should see your **ADW\_FIRSTNAME\_LASTNAME**.
 
 ![](./images/Part_1_Step_2_5.png " ")
 
@@ -92,7 +92,7 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 ![](./images/Part_1_Step_2_6.png " ")
 
 ### **STEP 3**: Download the Connection Wallet
-As ADW only accepts secure connections to the database, you need to download a wallet file containing your credentials first. The wallet can be downloaded either from the instance's details page, or from the ADW service console. In this case, we will be showing you how to download the wallet file from the instance's details page. This wallet file can be used with a local version of software such as SQL Developer as well as others. It will also be used later in the lab so make note of where it is stored.
+As ADW only accepts secure connections to the database, you need to download a wallet file containing your credentials first. The wallet can be downloaded either from the instance's details page, or from the ADW service console. In this case, we will be showing you how to download the wallet file from the instance's details page. This wallet file is used to authenticate to your database so make note of where it is stored.
 
 -   Go back to the Oracle Cloud Console and open the Instances screen. Find your database, click the action menu and select **DB Connection**.
 
@@ -102,7 +102,7 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 ![](./images/9.png " ")
 
--   Specify a password of your choice for the wallet. You will need this password when connecting to the database via SQL Developer later, and is also used as the JKS keystore password for JDBC applications that use JKS for security. Click **Download** to download the wallet file to your client machine. Download the wallet to a location you can easily access, because we will be using it in the next step.
+-   Specify a password of your choice for the wallet. You will need this password when connecting to the database later and it is also used as the JKS keystore password for JDBC applications that use JKS for security. Click **Download** to download the wallet file to your client machine. Download the wallet to a location you can easily access, because we will be using it in the next step.
 *Note: If you are prevented from downloading your Connection Wallet, it may be due to your browser's pop-blocker. Please disable it or create an exception for Oracle Cloud domains.*
 
 ![](./images/10.png " ")
@@ -125,7 +125,7 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 ![](./images/Part_2_Step_1_3.png " ")
 
--   Sign in with your ADMIN **password** for your ADW instance that you noted down earlier and click **Sign in to Administration Services**.
+-   Sign in with your ADMIN **password** for your ADW instance that you noted down earlier and click **Sign in to Administration**.
 
 ![](./images/Part_2_Step_1_4.png " ")
 
@@ -135,7 +135,7 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 ![](./images/Part_2_Step_2_1.png " ")
 
--   Then, create a Database User and Workspace Name. For this workshop, use **DEVELOPER** for both. 
+-   Then, create a Database User name. For this workshop, use **DEVELOPER**. The Workspace Name field will be auto-populated- keep it as **DEVELOPER** as well.
 
 -   **Note**: it is essential you make sure to use **DEVELOPER** as many files and configurations in later labs depend on it. Please do not use a different name here for this workshop.
 
@@ -155,7 +155,7 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 ![](./images/Part_2_Step_3_2.png " ")
 
--   Then, click **Return to Sign in Page** .
+-   Then, click **Return to Sign In Page** .
 
 ![](./images/Part_2_Step_3_3.png " ")
 
@@ -201,15 +201,15 @@ As ADW only accepts secure connections to the database, you need to download a w
 
 -   You will download another dataset file from this workshop to load into your APEX app. You can download it by clicking on the following text link: [Download US_CENSUS.csv here](./files/US_CENSUS.csv). 
 
--   Then, open your browser window and navigate back to the **Data Workshop** section in APEX to then click **Load Data** again for this new file.
+-   Then, open your browser window back up and navigate back to the **Data Workshop** section in APEX where we last left off.  Then click **Load Data** again for this new file.
 
 ![](./images/Part_2_Step_6_3.png " ")
 
--   Choose **US_CENSUS.csv** as the data file to create a table. When loading in this table, keep the table options as shown below.
+-   Choose **US_CENSUS.csv** as the data file to create a table. When loading in this table, keep the table options as shown below. Then, click **Load Data** for this file.
 
 ![](./images/Part_2_Step_6_18.png " ")
 
--   Confirm that the two data files you loaded have been imported as tables.
+-   Confirm that the two data files you loaded have been imported as tables after loading the data. You can do this by clicking on "View Table" and then on the left of your screen you can see a column with the datasets you have just imported.
 
 ![](./images/Part_2_Step_6_17.png " ")
 
@@ -231,6 +231,8 @@ You have now changed the data type for the Date of Sale column from a Date to a 
 ### **STEP 5**: Create an App in APEX
 
 -   You will download another data file from this workshop to create your APEX app. You can download it by clicking on the following text link: [Download ApexApp.sql here](./files/ApexApp.sql). Then, open your browser window again back to the APEX page.
+
+-   The following steps allows a user to quickly create an APEX application based on a pre-packaged app.
 
 -   To start creating an app, click on **App Builder** on the top navigation bar.  Next, click on **Import**.
 
