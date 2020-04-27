@@ -23,14 +23,14 @@ To get an idea of how these services correlate to one another, here is an exampl
 
 **Note**: Additionally, as much as possible, do not stray away from the naming conventions used for resources in this worshop. You may run into errors if you do.
 
-*In addition to the workshop*, feel free to watch the walkthrough companion videos by clicking on the following links below and signing in with your Oracle SSO:
+*In addition to the workshop*, feel free to watch the walkthrough companion videos by clicking on the following links below:
 
-1. [Lab 100 Walkthrough Video](https://otube.oracle.com/media/Lab100A+ADW+and+APEX+Essentials/0_dluujk0s)
-2. [Lab 200 Walkthrough Video](https://otube.oracle.com/media/Lab200A+Machine+Learning+with+ADW/0_xa5dg572)
-3. [Lab 300 Walkthrough Video](https://otube.oracle.com/media/Lab300A+ORDS+and+APEX/0_s9mbgdfx)
-4. [Lab 400 Walkthrough Video](https://otube.oracle.com/media/Lab+400A+Getting+Started+with+OAC/0_kmhc3x9v)
-5. [Lab 500 Walkthrough Video](https://otube.oracle.com/media/Lab+500A+Analytics+in+OAC/0_ekr3yppl)
-6. [Lab 600 Walkthrough Video](https://otube.oracle.com/media/Lab+600A+Implementing+APIs+into+ODA/0_f8nheacr)
+1. [Lab 100 Walkthrough Video](https://www.youtube.com/watch?v=N1EoJtf1onE)
+2. [Lab 200 Walkthrough Video](https://www.youtube.com/watch?v=uprqKyeuxik)
+3. [Lab 300 Walkthrough Video](https://www.youtube.com/watch?v=Zq0qEgF0bMU)
+4. [Lab 400 Walkthrough Video](https://www.youtube.com/watch?v=H_SGzbIW3DA)
+5. [Lab 500 Walkthrough Video](https://www.youtube.com/watch?v=wlSVlFv1R2A)
+6. [Lab 600 Walkthrough Video](https://www.youtube.com/watch?v=I5prg0Ucso4)
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 

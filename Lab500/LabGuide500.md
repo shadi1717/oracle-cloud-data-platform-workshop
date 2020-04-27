@@ -9,8 +9,8 @@
 
 This lab walks you through the steps on how you can use the Oracle Analytics Cloud to visualize entities from a database such as the results of the model created in OML.
 
-*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link and signing in with your Oracle SSO:
-[Lab 500 Walkthrough Video](https://otube.oracle.com/media/Lab+500A+Analytics+in+OAC/0_ekr3yppl)
+*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link:
+[Lab 500 Walkthrough Video](https://www.youtube.com/watch?v=wlSVlFv1R2A)
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
