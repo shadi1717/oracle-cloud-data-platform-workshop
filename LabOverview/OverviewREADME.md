@@ -21,7 +21,7 @@ To get an idea of how these services correlate to one another, here is an exampl
 
 **Note**: This lab is intended to be a comprehensive full cloud showcase. As such, it is assumed a user going through this workshop will be provisioning resources and creating users from scratch. If you decide to use existing infrastructure or resources, be aware and keep note of your namings so resources don't overlap and conflict. 
 
-**Note**: Additionally, as much as possible, do not stray away from the naming conventions used for resources in this worshop. You may run into errors if you do.
+**Note**: Additionally, as much as possible, do not stray away from the naming conventions used for resources in this workshop. You may run into errors if you do.
 
 *In addition to the workshop*, feel free to watch the walkthrough companion videos by clicking on the following links below:
 
