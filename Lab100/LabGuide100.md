@@ -67,7 +67,7 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 
 ![](./images/adw0.png " ")
 
-- Then, scroll down and select the CPU core count and Storage (TB) size. Here, we use 2 CPU and 1 TB of storage.
+- First, select **18c** as your database version from the drop down.  Then, select the CPU core count and Storage (TB) size. Here, we use 2 CPU and 1 TB of storage.
 
 ![](./images/adw1img.png " ")
 
