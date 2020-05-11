@@ -53,11 +53,11 @@ This lab walks you through the steps to use an existing Oracle Analytics Cloud (
 
 ![](./images/0e.png " ")
 
--   After a few minutes refresh your page and you will see the status and the sign are disappeared. Now your OAC instance is ready. In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page. Save this web page link for future use.
+-   After a few minutes refresh your page and you will see the status and the sign are disappeared. Now your OAC instance is ready. In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page to the OAC home console. Save this web page link for future use.
 
 ![](./images/0f.png " ")
 
--   Welcome to the Oracle Analytics Cloud! Enjoy exploring it!
+-   Welcome to the Oracle Analytics Cloud! Enjoy exploring it! If you are on the OAC home console page, as shown below, please skip "Part 1" as you already successfully created and navigated to your OAC instance.
 
 ![](./images/0g.png " ")
 
@@ -76,7 +76,7 @@ This lab walks you through the steps to use an existing Oracle Analytics Cloud (
 
 ![](./images/400new1.png " ")
 
--   In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page. Save this web page link for future use.
+-   In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page to the OAC home console. Save this web page link for future use.
 
 ![](./images/400new2.png " ")
 
