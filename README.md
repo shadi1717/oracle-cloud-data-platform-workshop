@@ -42,14 +42,22 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 - A cloud tenancy where you have the resources available to provision an ADW instance with 2 OCPUs, an OAC instance with 2 OCPUs, and an ODA instance.
 - Oracle Cloud Infrastructure supports the following browsers and versions: Google Chrome 69 or later, Safari 12.1 or later, Firefox 62 or later.
 
-## Acquire Oracle Cloud Account and Sign-in
+## Acquire an Oracle Cloud Account and Sign-in
 
-### Step 1: Acquire an Oracle Cloud Trial or Workshop Account
-- Bookmark this page for future reference.
+### Option 1: Sign Up for an Oracle Cloud Free Trial Account
+- If you do not have an Oracle Cloud account, you can create a Free Trial account. All services needed for this workshop are available to Free Trial accounts. Please note that there is a 30 day period of use for up to $300 in cloud credits. This should not inhibit your ability to complete the workshop. A credit card will be required to activate your account.
 
-- Please click on the URL to create your <a class=“trial-link”  href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&SC=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&pcode=NAMK190227P00084" target="trial">Free Account</a> and complete all the required steps. When you complete the registration process you'll receive a $300 credit that will enable you to complete the lab for free. Additionally, you'll have 1000s of hours left over to continue to explore the Oracle Cloud.
+- Please click on the URL to create your <a class=“trial-link”  href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&SC=:ex:tb:::RC_NAMK190227P00084:PredictDemandML_ADW_HOL&pcode=NAMK190227P00084" target="trial">Free Account</a> and complete all the required steps.  
 
-- Soon after requesting your trial you will receive the following email. You may begin working on this lab once you receive this email.
+- Soon after requesting your trial, you will receive a follow-up email. You may begin working on this workshop once you receive it. Additionally, you'll have access to a never-expiring Oracle Cloud account allowing you to explore even more capabilities of the Oracle Cloud.
+
+### Option 2: Sign Up for an Oracle SE-Assisted Trial Account
+- When signing up for an Oracle SE-Assisted Trial account, similarly to Option 1, you have access to all cloud services needed for this workshop. In addition, an Oracle Cloud Solutions Engineer (SE) will be assigned to help guide you with your journey in the cloud. Please note that for this option, no credit card is required on signup.
+
+- If selecting this option, an Oracle Solution Engineer (SE) must confirm that this is a request for a trial environment on your behalf. The Oracle Solution Engineer can do so through the following link: [SE Trial Setup](https://isrcentral.oracle.com/oalcrm/web/SETrialUI/)
+
+### Option 3 *[Preferred]*: Use an Existing Oracle Cloud Tenancy Account
+- If you already have access to an Oracle Cloud tenancy account, please use it for the purposes of this workshop. As a reminder, your tenancy must allow you as a user to have access to cloud services and resources as mentioned above in the "Required Artifacts" section of this lab guide.
 
 ## Access the Labs and Navigate to Lab 100
 
