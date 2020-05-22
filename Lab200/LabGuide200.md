@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This lab walks you through the steps to make an OML user and use SQL Developer as an interface to the ADW instance for granting user privileges. Then you will use OML to run a SQL script to generate machine learning models.
+This lab walks you through the steps to make an OML (Oracle Machine Learning) user and use SQL Developer as an interface to the ADW instance for granting user privileges. Then you will use OML to run a SQL script to generate machine learning models.
 
 *In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following image:
 [![Lab 200 Walkthrough Video](./images/lab200tn.png " ")](https://www.youtube.com/watch?v=uprqKyeuxik "Lab 200 Walkthrough Video - Click to Watch!")
