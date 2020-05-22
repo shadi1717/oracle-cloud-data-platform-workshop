@@ -9,8 +9,8 @@
 
 In this lab, you will learn how to provision an Oracle Digital Assistant instance and design a Skill in which you will implement your APIs from the APEX portion of this workshop.  These APIs will be utilized in order to make REST calls to the Autonomous Data Warehouse to get information on store predictions.  These REST API calls will be tested through interacting with the chatbot dialogue.
 
-*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following link:
-[Lab 600 Walkthrough Video](https://www.youtube.com/watch?v=I5prg0Ucso4)
+*In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following image:
+[![Lab 600 Walkthrough Video](./images/lab600tn.png " ")](https://www.youtube.com/watch?v=I5prg0Ucso4 "Lab 600 Walkthrough Video - Click to Watch!")
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
