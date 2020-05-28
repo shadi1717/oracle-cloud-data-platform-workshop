@@ -7,7 +7,7 @@
 
 ## Introduction
 
--   In this lab, you will learn about how a finance team can adress analytics questions through Oracle Analytics  for Applications (OAX) for Fusion ERP.
+-   In this *Optional Bonus* lab, you will learn about how a finance team can adress analytics questions through Oracle Analytics  for Applications (OAX) for Fusion ERP.
 -   Finance teams are under enormous pressure to generate more insights, faster, from their financial systems and other critical data sources. But for most organizations, far too much time is spent manually sourcing, managing, preparing, and securing data – leaving far too little time for true analysis and insight.
 -   Oracle Analytics for Fusion ERP provides the fastest path to insight with your ERP data, based on its pre-built integration to your ERP Cloud, pre-built data model, and pre-built interfaces – including KPIs, dashboards, and self- service project areas that you can use to easily customize and extend your analysis. And, it’s all built on the foundation of Oracle Analytics Cloud and the self-tuning, self-scaling, self-securing Oracle Autonomous Data Warehouse.
 -   This workshop is designed to give you a hands-on experience with both the pre-built elements of Oracle Analytics for Fusion ERP – with a focus on KPIs and dashboards – as well as the intuitive self-service capabilities delivered by the underlying Oracle Analytics Cloud platform.
@@ -43,13 +43,13 @@
 
 -   We start at the homepage, where contains KPIs and Decks that you have marked as favorites. Since this is the first time you have logged in, the screen will be blank. Let’s explore how to navigate within the application.
 
+![](./images/2a.png " ")
+
 -   Click on the upper left **hamburger menu** icon to see the following:
     1. **Decks** are how KPIs are presented and organized. 
     2. **KPIs** is where you can createand edit the Key Performance Indicators library.
     3. **Projects** is where you can create and edit analysis and reports.
     4. **Data** is where you manage data access and workflows. 
-
-![](./images/2a.png " ")
 
 -   Click on **Decks**.
 
@@ -58,10 +58,10 @@
 ### **Step 3:** 
 
 -   Now, take a moment to review a few of the pre-built decks. From left to right, click on the following:
--   **Profit and Loss**
--   **Payables**
--   **Balance Sheet**
--   **Financial Ratios**
+    1. **Profit and Loss**
+    2. **Payables**
+    3. **Balance Sheet**
+    4. **Financial Ratios**
 
 -   Take a moment to look at the pre- built KPIs on each deck.
 
@@ -84,9 +84,9 @@
 -   **Note** that a deck contains one or more KPI “cards.”
 
 -   Each KPI card can be customized in numerous ways. In addition to the visualization, observe that the Revenue KPI Card contains the following:
--   An **Alert** (the top line is green – as Revenue is above target)
--   A Comparison to **Target**
--   A Comparison to **Previous Time Period**
+    1. An **Alert** (the top line is green – as Revenue is above target)
+    2. A Comparison to **Target**
+    3. A Comparison to **Previous Time Period**
 
 ![](./images/5.png " ")
 
@@ -106,9 +106,9 @@
 -   This pre-built analysis provides additional visualizations to highlight and accelerate further analysis.
 
 -   Observe the following:
--   Trailing 12 months andquarterly operating expenses are increasing.
--   The tree map visualization shows that the Call Center is the top area for expense.
--   In the bottom bar chart, we see a spike in payroll cost.
+    1. Trailing 12 months and quarterly operating expenses are increasing.
+    2. The tree map visualization shows that the Call Center is the top area for expense.
+    3. In the bottom bar chart, we see a spike in payroll cost.
 
 -   Finally, click on the **back arrow** at the upper left of the screen to return to the deck.
 
@@ -159,8 +159,8 @@
 ### **Step 12:** 
 
 -   Note that by default, this KPI is configured as follows:
--   Target: compares against the payroll cost budget.
--   Target Value: set to % Variance from Target.
+    1. Target: compares against the payroll cost budget.
+    2. Target Value: set to % Variance from Target.
 
 -   Now we’ll customize the KPI. Click **Show Change** checkbox.
 
@@ -263,8 +263,8 @@
 -   Review the analyst’s note: Lizzy observes that overtime pay started to increase in July, which was the same time the Call Center had a spike in attrition. You can see the spike in the lower left visualization.
 
 -   Two additional items stand out:
--   Statistical trending and forecasting capabilities enhance several visualizations, including the projected attrition trend as well as the future impact of overtime.
--   Observe the Turnover narrative on the right was created using point and click natural language generation capabilities applied to the “Turnover by Department” visualization.
+    1. Statistical trending and forecasting capabilities enhance several visualizations, including the projected attrition trend as well as the future impact of overtime.
+    2. Observe the Turnover narrative on the right was created using point and click natural language generation capabilities applied to the “Turnover by Department” visualization.
 
 ![](./images/20.png " ")
 
@@ -281,10 +281,10 @@
 ![](./images/21b.png " ")
 
 -   To recap, in this part, you:
--   Monitored business performance with pre-built KPIs and pre-built Decks
--   Drilled into deeper analysis, which is available through pre-built reports
--   Collaborated with the team – within the platform – to answer questions
--   Observed how an analyst can easily bring additional data sets – like HR data – into the platform to perform cross- functional analysis.
+    1. Monitored business performance with pre-built KPIs and pre-built Decks
+    2. Drilled into deeper analysis, which is available through pre-built reports
+    3. Collaborated with the team – within the platform – to answer questions
+    4. Observed how an analyst can easily bring additional data sets – like HR data – into the platform to perform cross- functional analysis.
 
 
 ## Part 2. Custom Analysis on Pre-Built Profitability Subject Area
@@ -307,9 +307,9 @@
 ### **Step 2:** 
 
 -   Observe the following: 
--   Net Income for the current quarter in a waterfall viz
--   A quarterly trend for net Income, Revenue and Net Income Margin %
--   Net income details.
+    1. Net Income for the current quarter in a waterfall viz
+    2. A quarterly trend for net Income, Revenue and Net Income Margin %
+    3. Net income details.
 
 -   Click the **Edit button** so we can customize this analysis
 
@@ -334,10 +334,10 @@
 -   Click the **+ icon** at the bottom of the screen to create a new canvas.
 
 -   To build our first visualization, let's make a simple pivot table. In the **Data pane**, do the following:
--   Click to open the **Time** folder
--   Right Click **Fiscal Quarter**
--   Select **Pick Visualization** from the popup window
--   Select the **Pivot icon**
+    1. Click to open the **Time** folder
+    2. Right Click **Fiscal Quarter**
+    3. Select **Pick Visualization** from the popup window
+    4. Select the **Pivot icon**
 
 ![](./images/2-4a.png " ")
 
@@ -397,11 +397,11 @@
 -   With **# Net Income selected**, scroll down to the bottom left settings panel.
 
 -   Click on the **#** menu, and make the following modifications:
--   Data Label: Select **Auto**
--   Font: Select **Auto** and click the **bold icon**
--   Number Format: Select **Number**
--   Decimal: Select **None**
--   Abbreviate: Select **On**
+    1. Data Label: Select **Auto**
+    2. Font: Select **Auto** and click the **bold icon**
+    3. Number Format: Select **Number**
+    4. Decimal: Select **None**
+    5. Abbreviate: Select **On**
 
 ![](./images/2-8.png " ")
 
@@ -513,15 +513,15 @@
 -   Click the **GL Balance (LC)** subfolder to open it.
 
 -   Select the following while holding the ctrl key (cmd key for mac users)
--   **# Activity Amount**
--   **# Opening Amount**
--   **# Closing Amount**
--   **# Debit Amount**
--   **# Credit Amount**
+    1. **# Activity Amount**
+    2.  **# Opening Amount**
+    3. **# Closing Amount**
+    4.  **# Debit Amount**
+    5. **# Credit Amount**
 
 -   After selecting them all, right click to then do the following:
--   Select **Pick Visualization**
--   Select **Pivot**
+    1. Select **Pick Visualization**
+    2. Select **Pivot**
 
 ![](./images/3-3.png " ")
 
@@ -577,7 +577,7 @@
 
 -   Click **Projects and Reports**
 
--  Click **Modified** and Select **Name**
+-   Click **Modified** and Select **Name**
 
 ![](./images/4-2.png " ")
 
@@ -590,9 +590,9 @@
 ### **Step 4:** 
 
 -   This project contains analyses across two subject areas, AP Invoices and AP Balances. Visualizations include:
--   AP Balances quarterly trend.
--   Top 10 suppliers with AP Balances.
--   Trailing 12 months for AP invoice transactions.
+    1. AP Balances quarterly trend.
+    2. Top 10 suppliers with AP Balances.
+    3. Trailing 12 months for AP invoice transactions.
 
 -   Click the **+ icon** at the bottom of the screen to create a new canvas.
 
