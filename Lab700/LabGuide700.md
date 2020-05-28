@@ -7,7 +7,7 @@
 
 ## Introduction
 
--   In this *Optional Bonus* lab, you will learn about how a finance team can adress analytics questions through Oracle Analytics  for Applications (OAX) for Fusion ERP.
+-   In this *Optional Bonus* lab, you will learn about how a finance team can adress analytics questions through Oracle Analytics for Applications (OAX) for Fusion ERP.
 -   Finance teams are under enormous pressure to generate more insights, faster, from their financial systems and other critical data sources. But for most organizations, far too much time is spent manually sourcing, managing, preparing, and securing data – leaving far too little time for true analysis and insight.
 -   Oracle Analytics for Fusion ERP provides the fastest path to insight with your ERP data, based on its pre-built integration to your ERP Cloud, pre-built data model, and pre-built interfaces – including KPIs, dashboards, and self- service project areas that you can use to easily customize and extend your analysis. And, it’s all built on the foundation of Oracle Analytics Cloud and the self-tuning, self-scaling, self-securing Oracle Autonomous Data Warehouse.
 -   This workshop is designed to give you a hands-on experience with both the pre-built elements of Oracle Analytics for Fusion ERP – with a focus on KPIs and dashboards – as well as the intuitive self-service capabilities delivered by the underlying Oracle Analytics Cloud platform.
