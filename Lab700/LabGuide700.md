@@ -37,7 +37,7 @@
 
 -   Enter the credentials you were given and click the **Sign In** button.
 
-![](./images/1.png " ")
+![](./images/1.png)
 
 ### **Step 2:** 
 
@@ -49,11 +49,11 @@
 -   **Projects** is where you can create and edit analysis and reports.
 -   **Data** is where you manage data access and workflows. 
 
-![](./images/2a.png " ")
+![](./images/2a.png)
 
 -   Click on **Decks**.
 
-![](./images/2b.png " ")
+![](./images/2b.png)
 
 ### **Step 3:** 
 
@@ -65,7 +65,7 @@
 
 -   Take a moment to look at the pre- built KPIs on each deck.
 
-![](./images/3.png " ")
+![](./images/3.png)
 
 ### **Step 4:** 
 
@@ -75,7 +75,7 @@
 
 -   Click the **filter icon** again to make it disappear.
 
-![](./images/4.png " ")
+![](./images/4.png)
 
 ### **Step 5:** 
 
@@ -88,7 +88,7 @@
 -   A Comparison to **Target**
 -   A Comparison to **Previous Time Period**
 
-![](./images/5.png " ")
+![](./images/5.png)
 
 ### **Step 6:** 
 
@@ -99,7 +99,7 @@
 
 -   Select **Operating Expense Analysis**.
 
-![](./images/6.png " ")
+![](./images/6.png)
 
 ### **Step 7:** 
 
@@ -112,7 +112,7 @@
 
 -   Finally, click on the **back arrow** at the upper left of the screen to return to the deck.
 
-![](./images/7.png " ")
+![](./images/7.png)
 
 ### **Step 8:** 
 
@@ -122,7 +122,7 @@
 
 -   Select **Add Deck**.
 
-![](./images/8.png " ")
+![](./images/8.png)
 
 ### **Step 9:** 
 
@@ -130,7 +130,7 @@
 
 -   Click the **Save** button.
 
-![](./images/9.png " ")
+![](./images/9.png)
 
 ### **Step 10:** 
 
@@ -138,7 +138,7 @@
 
 -   Click the **+ icon**.
 
-![](./images/10.png " ")
+![](./images/10.png)
 
 ### **Step 11:** 
 
@@ -150,11 +150,11 @@
 
 -   You will see a Preview of the card, but we want to customize it before we add it to the deck.
 
-![](./images/11a.png " ")
+![](./images/11a.png)
 
 -   Click the **Customize Card** button.
 
-![](./images/11b.png " ")
+![](./images/11b.png)
 
 ### **Step 12:** 
 
@@ -164,19 +164,19 @@
 
 -   Now we’ll customize the KPI. Click **Show Change** checkbox.
 
-![](./images/12a.png " ")
+![](./images/12a.png)
 
 -   By default, Last Period is set to display a Qtr over Qtr comparison.
 
 -   Click the **Last Period** value. 
 
-![](./images/12b.png " ")
+![](./images/12b.png)
 
 -   Select **Same Period Last year**.
 
 -   The Preview updates, and we now see a new +% YoY.
 
-![](./images/12c.png " ")
+![](./images/12c.png)
 
 ### **Step 13:** 
 
@@ -185,23 +185,23 @@
 
 -   In the **Detail Visualization** section, click **More Options** to expand it.
 
-![](./images/13a.png " ")
+![](./images/13a.png)
  
 -   **Scroll down** and under **Additional Data**, look for **Values**.
 
 -   In the Values drop-down, select **Payroll Cost Budget**. We now see the budget in the visualization.
 
-![](./images/13b.png " ")
+![](./images/13b.png)
 
 -   To make the visualization easier to read,  go to the **VIsualization** box and select **Line Bar Combo**.
 
-![](./images/13.png " ")
+![](./images/13.png)
 
 ### **Step 14:** 
 
 -   Observe how we now see actuals (blue bar) trending over budget (green line).
 
-![](./images/14.png " ")
+![](./images/14.png)
 
 ### **Step 15:** 
 
@@ -211,7 +211,7 @@
 
 -   Click the **Add Card** button.
 
-![](./images/15.png " ")
+![](./images/15.png)
 
 ### **Step 16:** 
 
@@ -221,7 +221,7 @@
 
 -   Click the **maximize icon** so we can navigate to a larger card to see more information.
 
-![](./images/16.png " ")
+![](./images/16.png)
 
 ### **Step 17:** 
 
@@ -229,7 +229,7 @@
 
 -   Click **Enter message** to create a note to the finance analyst to investigate payroll cost.
 
-![](./images/17a.png " ")
+![](./images/17a.png)
 
 -  Type the following: **Lizzy – please investigate why Payroll Cost is trending up and over budget.**
 
@@ -237,7 +237,7 @@
 
 -   Notice that at the bottom of the popup window that the system recommends related metrics. In this case, the system recommends Payroll Cost Budget, Sales and Marketing, and Other Operating Expenses.
 
-![](./images/17b.png " ")
+![](./images/17b.png)
 
 ### **Step 18:** 
 
@@ -247,7 +247,7 @@
 
 -   Click the **back arrow** next to the Notes title.
 
-![](./images/18.png " ")
+![](./images/18.png)
 
 ### **Step 19:** 
 
@@ -255,7 +255,7 @@
 
 -   Click on the **HR Payroll and Attrition Analysis link**.
 
-![](./images/19.png " ")
+![](./images/19.png)
 
 ### **Step 20:** 
 
@@ -266,7 +266,7 @@
 -   Statistical trending and forecasting capabilities enhance several visualizations, including the projected attrition trend as well as the future impact of overtime.
 -   Observe the Turnover narrative on the right was created using point and click natural language generation capabilities applied to the “Turnover by Department” visualization.
 
-![](./images/20.png " ")
+![](./images/20.png)
 
 ### **Step 21:** 
 
@@ -274,11 +274,11 @@
 
 -   Click the **Back arrow** in the upper left.
 
-![](./images/21a.png " ")
+![](./images/21a.png)
 
 -   Click **My P&L** deck.
 
-![](./images/21b.png " ")
+![](./images/21b.png)
 
 -   To recap, in this part, you:
 -   Monitored business performance with pre-built KPIs and pre-built Decks
@@ -298,9 +298,11 @@
 
 -   Click the **Net Income KPI** card **hamburger menu icon**.
 
+![](./images/2-1a.png)
+
 -   Select **Net Income Analysis**
 
-![](./images/2-1.png " ")
+![](./images/2-1b.png)
 
 ### **Step 2:** 
 
@@ -311,7 +313,7 @@
 
 -   Click the **Edit button** so we can customize this analysis
 
-![](./images/2-2.png " ")
+![](./images/2-2.png)
 
 ### **Step 3:** 
 
@@ -323,7 +325,7 @@
 -    From this data pane, you can see views of your finance data organized into constructs called subject areas. Here, we see the Financial – GL Profitability subject area. It is organized into folders containing attributes and metrics.
 -    Observe at the bottom left, you see the setting pane for whatever object we select.
 
-![](./images/2-3.png " ")
+![](./images/2-3.png)
 
 ### **Step 4:** 
 
@@ -337,6 +339,8 @@
 -   Select **Pick Visualization** from the popup window
 -   Select the **Pivot icon**
 
+![](./images/2-4a.png)
+
 -   **Drag** the **Data pane** wider so you can see better.
 
 -   Click the **Balancing Segment Hierarchy** folder to open.
@@ -344,6 +348,8 @@
 -   Double Click **Balancing Segment Level 30 Description**.
 
 -   Scroll down the **data pane**.
+
+![](./images/2-4b.png)
 
 -   Click **Facts – Ledger Currency folder** to open.
 
@@ -353,7 +359,7 @@
 
 -   And it’s as simple as that to create your first visualization – slicing and dicing net income by different dimensions.
 
-![](./images/2-4.png " ")
+![](./images/2-4c.png)
 
 ### **Step 5:** 
 
@@ -365,7 +371,7 @@
 
 -   Click on Duplicate Visualization to add a duplicate to the canvas.
 
-![](./images/2-5.png " ")
+![](./images/2-5.png)
 
 ### **Step 6:** 
 
@@ -375,14 +381,14 @@
 
 -   Select **Area icon** from the dropdown list.
 
-![](./images/2-6.png " ")
+![](./images/2-6.png)
 
 ### **Step 7:** 
 
 -   Your new “Area” visualization will now look like this. You can see that the combination of the table and the visualization helps tell the story more clearly.
 -   **Note**: If your new visualization looks different from what is shown, double-check the fields on the grammar pane and adjust it as necessary.
 
-![](./images/2-7.png " ")
+![](./images/2-7.png)
 
 ### **Step 8:** 
 
@@ -397,7 +403,7 @@
 -   Decimal: Select **None**
 -   Abbreviate: Select **On**
 
-![](./images/2-8.png " ")
+![](./images/2-8.png)
 
 ### **Step 9:** 
 
@@ -409,7 +415,7 @@
 
 -   Click on **Duplicate Visualization**
 
-![](./images/2-9.png " ")
+![](./images/2-9.png)
 
 ### **Step 10:** 
 
@@ -417,7 +423,7 @@
 
 -   Click on one of the area visualizations and drag it above the pivot table. Watch for the blue bar to show before releasing your mouse.
 
-![](./images/2-10.png " ")
+![](./images/2-10.png)
 
 ### **Step 11:** 
 
@@ -425,7 +431,7 @@
 
 -   In the grammar pane on the left, remove **Fiscal Quarter** by clicking the **x**.
 
-![](./images/2-11.png " ")
+![](./images/2-11.png)
 
 ### **Step 12:** 
 
@@ -435,7 +441,7 @@
 
 -   Select **Donut** from the dropdown list.
 
-![](./images/2-12.png " ")
+![](./images/2-12.png)
 
 ### **Step 13:** 
 
@@ -445,13 +451,13 @@
 
 -   Click and drag **Fiscal Year** to the **Trellis Columns** area in the grammar pane.
 
-![](./images/2-13.png " ")
+![](./images/2-13.png)
 
 ### **Step 14:** 
 
 -   The visualization now compares net income by regional segments across fiscal years.
 
-![](./images/2-14.png " ")
+![](./images/2-14.png)
 
 ### **Step 15:** 
 
@@ -463,7 +469,7 @@
 
 -   Click **Duplicate Visualization** to add a duplicate to the canvas.
 
-![](./images/2-15.png " ")
+![](./images/2-15.png)
 
 ### **Step 16:** 
 
@@ -473,13 +479,13 @@
 
 -   Select **Language Narrative icon** from the dropdown list.
 
-![](./images/2-16.png " ")
+![](./images/2-16.png)
 
 ### **Step 17:** 
 
 -  A generated narrative describing the Area visualization will appear on the left.
 
-![](./images/2-17.png " ")
+![](./images/2-17.png)
 
 
 ## Part 3. Explore Balance Sheet Subject Area and Create Trial Balance
@@ -488,7 +494,7 @@
 
 -   At the bottom of your screen, click the **+** icon to create a new canvas.
 
-![](./images/3-1.png " ")
+![](./images/3-1.png)
 
 ### **Step 2:** 
 
@@ -498,7 +504,7 @@
 
 -   Click **Financials – GL Balance Sheet** to expand it.
 
-![](./images/3-2.png " ")
+![](./images/3-2.png)
 
 ### **Step 3:** 
 
@@ -517,7 +523,7 @@
 -   Select **Pick Visualization**
 -   Select **Pivot**
 
-![](./images/3-3.png " ")
+![](./images/3-3.png)
 
 ### **Step 4:** 
 
@@ -527,7 +533,7 @@
 
 -   Double Click **Balancing Segment Level 30 Description**
 
-![](./images/3-4.png " ")
+![](./images/3-4.png)
 
 ### **Step 5:** 
 
@@ -535,9 +541,11 @@
 
 -   Drag **Natural Account Level 30 Description** to Rows below **Balancing Segment Level 30 Name** (in the grammar pane).
 
+![](./images/3-5a.png)
+
 -   Drag **Natural Account Level 29 Description** to Rows below **Natural Account Level 30 Description** (in the grammar pane).
 
-![](./images/3-5.png " ")
+![](./images/3-5b.png)
 
 ### **Step 6:** 
 
@@ -548,7 +556,7 @@
 
 -   **Note**: If you see a generating thumbnail message, click **Skip** to ignore.
 
-![](./images/3-6.png " ")
+![](./images/3-6.png)
 
 
 ## Part 4. Explore Account Payables Project and Create New Reports
@@ -561,7 +569,7 @@
 
 -   Click **Home**.
 
-![](./images/4-1.png " ")
+![](./images/4-1.png)
 
 ### **Step 2:** 
 
@@ -571,13 +579,13 @@
 
 -  Click **Modified** and Select **Name**
 
-![](./images/4-2.png " ")
+![](./images/4-2.png)
 
 ### **Step 3:** 
 
 -   Click **AP Analysis – Lab**
 
-![](./images/4-3.png " ")
+![](./images/4-3.png)
 
 ### **Step 4:** 
 
@@ -588,7 +596,7 @@
 
 -   Click the **+ icon** at the bottom of the screen to create a new canvas.
 
-![](./images/4-4.png " ")
+![](./images/4-4.png)
 
 ### **Step 5:** 
 
@@ -603,7 +611,7 @@
 -   Then, click **Payment Terms** folder to open it.
 -   Then, double click **Payment Terms Name**.
 
-![](./images/4-5.png " ")
+![](./images/4-5.png)
 
 
 ### **Step 6:** 
@@ -615,7 +623,7 @@
 
 -   Then, double click **Supplier Name** to automatically add it to your visualization.
 
-![](./images/4-6.png " ")
+![](./images/4-6.png)
 
 ### **Step 7:** 
 
@@ -623,7 +631,7 @@
 
 -   Select the **Stacked bar icon** from the dropdown list
 
-![](./images/4-7.png " ")
+![](./images/4-7.png)
 
 ### **Step 8:** 
 
@@ -632,17 +640,19 @@
 -   In the grammar pane, drag **Invoice Amount** from
 **Values** to the **Filter**.
 
-![](./images/4-8.png " ")
+![](./images/4-8.png)
 
 ### **Step 9:** 
 
 -   Disregard the pop-up window, and instead, at the bottom of the grammar pane, in Filters, click **Invoice Amount**
 
+![](./images/4-9a.png)
+
 -   Hover over **Filter Type**
 
 -   Click **Top Bottom N**
 
-![](./images/4-9.png " ")
+![](./images/4-9b.png)
 
 ### **Step 10:** 
 
@@ -652,29 +662,35 @@
 
 -   Now we see Invoice Amount by Payment Terms for our 10 top suppliers. We see a possible supplier candidate in the Net 30 to ask for longer payment terms.
 
-![](./images/4-10.png " ")
+![](./images/4-10.png)
 
 ### **Step 11:** 
 
 -   Let’s create another visualization. But this time, we’ll try out one of the shortcut features – directly searching for attributes and metrics that we are already familiar with.
 -   In the data pane, click the **magnifying glass icon**
 
-![](./images/4-11.png " ")
+![](./images/4-11.png)
 
 ### **Step 12:** 
 
 -   In the search box, type **Invoices Amount**
 -   Select **Invoices Amount** from **Financials – AP Invoices Facts – Ledger Currency** from the popup list
 
+![](./images/4-12a.png)
+
 -   Then, in the search box, type **Invoices Count**
 -   Select **Invoices Count** from **Financials – AP Invoices Facts – Ledger Currency** from the popup list
+
+![](./images/4-12b.png)
 
 -   Finally, again in the search box, type **Invoiced Fiscal Quarter**
 -   Select **Invoiced Fiscal Quarter** from **Financials – AP Invoices Date** from the popup list
 
+![](./images/4-12c.png)
+
 -   Then, select **Create Visual**.
 
-![](./images/4-12.png " ")
+![](./images/4-12d.png)
 
 ### **Step 13:** 
 
@@ -684,7 +700,7 @@
 
 -   Select the **Combo icon** from the dropdown list
 
-![](./images/4-13.png " ")
+![](./images/4-13.png)
 
 ### **Step 14:** 
 
@@ -694,7 +710,7 @@
 
 -   Drop it on the blue line that appears below **# Invoices Amount**
 
-![](./images/4-14.png " ")
+![](./images/4-14.png)
 
 ### **Step 15:** 
 
@@ -702,7 +718,7 @@
 
 -   Select **Bar**
 
-![](./images/4-15.png " ")
+![](./images/4-15.png)
 
 ### **Step 16:** 
 
@@ -710,7 +726,7 @@
 
 -   Select **Y2 Axis**
 
-![](./images/4-16.png " ")
+![](./images/4-16.png)
 
 ### **Step 17:** 
 
@@ -722,13 +738,13 @@
 
 -   Click **Forecast**
 
-![](./images/4-17.png " ")
+![](./images/4-17.png)
 
 ### **Step 18:** 
 
 -   Your visualization should look like the following, displaying a new three quarter forecast.
 
-![](./images/4-18.png " ")
+![](./images/4-18.png )
 
 
 
@@ -738,7 +754,7 @@
 
 -   Click the **+ icon** at the bottom of the screen to create a new canvas.
 
-![](./images/5-1.png " ")
+![](./images/5-1.png)
 
 ### **Step 2:** 
 
@@ -746,7 +762,11 @@
 
 -   Select **Add Data Set** in the popup window.
 
+![](./images/5-2a.png)
+
 -   Click the **Create Data Set** button.
+
+![](./images/5-2b.png)
 
 -   Click **Drop data file here** or **click to browse**.
 
@@ -754,7 +774,7 @@
 
 -   Click the **Open** button.
 
-![](./images/5-2.png " ")
+![](./images/5-2c.png)
 
 ### **Step 3:** 
 
@@ -764,13 +784,13 @@
 
 -   Click the **Add** button
 
-![](./images/5-3.png " ")
+![](./images/5-3.png)
 
 ### **Step 4:** 
 
 -   Click the **Data Diagram** tab at the bottom of the window.
 
-![](./images/5-4.png " ")
+![](./images/5-4.png)
 
 ### **Step 5:** 
 
@@ -782,9 +802,11 @@
 
 -   Click the **Cancel** button.
 
+![](./images/5-5a.png)
+
 -   In the upper right of the screen, click the **Visualize** link.
 
-![](./images/5-5.png " ")
+![](./images/5-5b.png)
 
 
 ### **Step 6:** 
@@ -793,14 +815,18 @@
 
 -   In the data pane, click the **Supplier** folder to expand it
 -   Double click **Supplier Name**
+
+![](./images/5-6a.png)
  
 -   Click **Facts – Ledger Currency** folder to expand it.
 -   Double Click **Invoice Amount**
 
+![](./images/5-6b.png)
+
 -   Click **dun_broadstreet_ratings** folder to expand it.
 -   Double Click **SER Rating**
 
-![](./images/5-6.png " ")
+![](./images/5-6c.png)
 
 ### **Step 7:** 
 
@@ -808,7 +834,7 @@
 
 -   In the data pane, double click **PAYDEX** from the **dun_broadstreet_ratings** folder so that PAYDEX is added to the visualization as the bubble color
 
-![](./images/5-7.png " ")
+![](./images/5-7.png)
 
 ### **Step 8:** 
 
@@ -816,7 +842,7 @@
 
 -   In the data pane, double click the **Invoices Count from the Facts – Ledger Currency** folder so that **Invoices Count** is added to the visualization as the bubble size
 
-![](./images/5-8.png " ")
+![](./images/5-8.png)
 
 ### **Step 9:** 
 
@@ -824,11 +850,16 @@
 
 -   In the grammar pane, click on **# Invoices Amount** and drag to the **Filters** section. Disregard the popup window.
 
+![](./images/5-9a.png)
+
 -   In the **Filters** section of the grammar pane, click **Invoice Amount** in the filter.
+
+![](./images/5-9b.png)
+
 -   Hover over **Filter Type**.
 -   Select **Top Bottom N**.
 
-![](./images/5-9.png " ")
+![](./images/5-9c.png)
 
 ### **Step 10:** 
 
@@ -838,7 +869,7 @@
 
 -   Your visualization should look similarly to the following image.
 
-![](./images/5-10.png " ")
+![](./images/5-10.png)
 
 ### **Step 11:** 
 
@@ -848,7 +879,7 @@
 
 -   For the Data Label, select **Auto**
 
-![](./images/5-11.png " ")
+![](./images/5-11.png)
 
 ### **Step 12:** 
 
@@ -862,7 +893,7 @@
 
 -   **Note**: If you see a generating thumbnail message, click **Skip** to ignore.
 
-![](./images/5-12.png " ")
+![](./images/5-12.png)
 
 
 
