@@ -16,7 +16,7 @@
 
 ### Objectives
 
--   Learn how to use the interface through KPI Cards, Decks, Alerts, and Analysis
+-   Learn how to use the Oracle Analytics for Applications (OAX) interface through KPI Cards, Decks, Alerts, and Analysis
 -   Learn how to perform a Custom Analysis on a Pre-Built Profitability Subject Area
 -   Learn how to explore a Balance Sheet Subject Area and create a Trial Balance
 -   Learn how to explore an Account Payables Project and create new reports 
@@ -44,10 +44,10 @@
 -   We start at the homepage, where contains KPIs and Decks that you have marked as favorites. Since this is the first time you have logged in, the screen will be blank. Let’s explore how to navigate within the application.
 
 -   Click on the upper left **hamburger menu** icon to see the following:
--   **Decks** are how KPIs are presented and organized. 
--   **KPIs** is where you can createand edit the Key Performance Indicators library.
--   **Projects** is where you can create and edit analysis and reports.
--   **Data** is where you manage data access and workflows. 
+    1. **Decks** are how KPIs are presented and organized. 
+    2. **KPIs** is where you can createand edit the Key Performance Indicators library.
+    3. **Projects** is where you can create and edit analysis and reports.
+    4. **Data** is where you manage data access and workflows. 
 
 ![](./images/2a.png " ")
 
