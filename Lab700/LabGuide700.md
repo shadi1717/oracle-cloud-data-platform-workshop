@@ -1,4 +1,4 @@
-# Lab 700: Oracle Analytics for Applications (OAX) for Fusion ERP
+# Lab 700: Oracle Fusion ERP Analytics
 
 <!-- Comment out table of contents
 ## Table of Contents
@@ -7,19 +7,19 @@
 
 ## Introduction
 
-In this *Optional Bonus* lab, you will learn about how a finance team can adress analytics questions through Oracle Analytics for Applications (OAX) for Fusion ERP.
+In this *Optional Bonus* lab, you will learn about how a finance team can adress analytics questions through Oracle Fusion ERP Analytics.
 
 Finance teams are under enormous pressure to generate more insights, faster, from their financial systems and other critical data sources. But for most organizations, far too much time is spent manually sourcing, managing, preparing, and securing data – leaving far too little time for true analysis and insight.
 
 Oracle Analytics for Fusion ERP provides the fastest path to insight with your ERP data, based on its pre-built integration to your ERP Cloud, pre-built data model, and pre-built interfaces – including KPIs, dashboards, and self- service project areas that you can use to easily customize and extend your analysis. And, it’s all built on the foundation of Oracle Analytics Cloud and the self-tuning, self-scaling, self-securing Oracle Autonomous Data Warehouse.
 
-This workshop is designed to give you a hands-on experience with both the pre-built elements of Oracle Analytics for Fusion ERP – with a focus on KPIs and dashboards – as well as the intuitive self-service capabilities delivered by the underlying Oracle Analytics Cloud platform.
+This workshop is designed to give you a hands-on experience with both the pre-built elements of Oracle Fusion ERP Analytics – with a focus on KPIs and dashboards – as well as the intuitive self-service capabilities delivered by the underlying Oracle Analytics Cloud platform.
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ### Objectives
 
--   Learn how to use the Oracle Analytics for Applications (OAX) interface through KPI Cards, Decks, Alerts, and Analysis
+-   Learn how to use the Oracle Fusion ERP Analytics interface through KPI Cards, Decks, Alerts, and Analysis
 -   Learn how to perform a Custom Analysis on a Pre-Built Profitability Subject Area
 -   Learn how to explore a Balance Sheet Subject Area and create a Trial Balance
 -   Learn how to explore an Account Payables Project and create new reports 
@@ -28,11 +28,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 ### Required Artifacts
 
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
--   *To access the workshop environment*, you will need internet access and a modern web browser. Your instructor will provide you with a URL for the OAX instance and you will be assigned a username and password. Please refer to your instructor's confluence page for details. 
+-   *To access the workshop environment*, you will need internet access and a modern web browser. Your instructor will provide you with a URL for the Oracle Fusion ERP Analytics instance and you will be assigned a username and password. Please refer to your instructor's confluence page for details. 
 -   The estimated time to complete this lab is 40 minutes.
 
 ### Extra Resources
--   To learn more about Oracle Analytics for Applications (OAX), feel free to explore the capabilities by clicking on this link: [OAX Getting Started Documentation](https://docs.oracle.com/en/cloud/saas/analytics/fawag/get-started-oracle-analytics-applications.html#GUID-66FF30CB-C4C4-4184-9223-DE5AE3E83C80)
+-   To learn more about Oracle Fusion ERP Analytics, feel free to explore the capabilities by clicking on this link: [Oracle Fusion ERP Analytics Getting Started Documentation](https://docs.oracle.com/en/cloud/saas/analytics/fawag/get-started-oracle-analytics-applications.html#GUID-66FF30CB-C4C4-4184-9223-DE5AE3E83C80)
 
 ## Part 1. Explore the Interface and Pre-Built Content: KPI Cards, Decks, Alerts, and Analysis
 
@@ -898,11 +898,16 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/5-12.png " ")
 
+### **Step 13:**
+
+-   Please delete any decks/cards you have made during this workshop by clicking on the cards' **menu bar** and selecting **Remove from Deck**
+
+![](./images/5-13.png " ")
 
 
 ## Summary
 
--   In this lab, you explored Oracle Analytics for Applications (OAX) for Fusion ERP. You navigated the Interface and pre-built content through KPI Cards, Decks, Alerts, and Analysis. You also performed a Custom Analysis on a Pre-Built Profitability Subject Area, explored a Balance Sheet Subject Area and created a Trial Balance. Additionally, you also explored an Account Payables Project and created new reports while extending analysis with external data.
+-   In this lab, you explored Oracle Fusion ERP Analytics. You navigated the Interface and pre-built content through KPI Cards, Decks, Alerts, and Analysis. You also performed a Custom Analysis on a Pre-Built Profitability Subject Area, explored a Balance Sheet Subject Area and created a Trial Balance. Additionally, you also explored an Account Payables Project and created new reports while extending analysis with external data.
 
 -   Congratulations on completing this additional bonus lab!
 
