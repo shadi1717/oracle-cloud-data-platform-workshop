@@ -283,6 +283,12 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/21b.png " ")
 
+### **Step 22:**
+
+-   Please delete any decks/cards you have made during this workshop by clicking on the cards' **menu bar** and selecting **Remove from Deck**
+
+![](./images/5-13.png " ")
+
 -   To recap, in this part, you:
     1. Monitored business performance with pre-built KPIs and pre-built Decks
     2. Drilled into deeper analysis, which is available through pre-built reports
@@ -897,12 +903,6 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 -   **Note**: If you see a generating thumbnail message, click **Skip** to ignore.
 
 ![](./images/5-12.png " ")
-
-### **Step 13:**
-
--   Please delete any decks/cards you have made during this workshop by clicking on the cards' **menu bar** and selecting **Remove from Deck**
-
-![](./images/5-13.png " ")
 
 
 ## Summary
