@@ -11,7 +11,7 @@ In this *Optional Bonus* lab, you will learn about how a finance team can adress
 
 Finance teams are under enormous pressure to generate more insights, faster, from their financial systems and other critical data sources. But for most organizations, far too much time is spent manually sourcing, managing, preparing, and securing data – leaving far too little time for true analysis and insight.
 
-Oracle Analytics for Fusion ERP provides the fastest path to insight with your ERP data, based on its pre-built integration to your ERP Cloud, pre-built data model, and pre-built interfaces – including KPIs, dashboards, and self- service project areas that you can use to easily customize and extend your analysis. And, it’s all built on the foundation of Oracle Analytics Cloud and the self-tuning, self-scaling, self-securing Oracle Autonomous Data Warehouse.
+Oracle Fusion ERP Analytics provides the fastest path to insight with your ERP data, based on its pre-built integration to your ERP Cloud, pre-built data model, and pre-built interfaces – including KPIs, dashboards, and self- service project areas that you can use to easily customize and extend your analysis. And, it’s all built on the foundation of Oracle Analytics Cloud and the self-tuning, self-scaling, self-securing Oracle Autonomous Data Warehouse.
 
 This workshop is designed to give you a hands-on experience with both the pre-built elements of Oracle Fusion ERP Analytics – with a focus on KPIs and dashboards – as well as the intuitive self-service capabilities delivered by the underlying Oracle Analytics Cloud platform.
 
@@ -298,14 +298,14 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ## Part 2. Custom Analysis on Pre-Built Profitability Subject Area
 
--    Oracle Analytics for Fusion ERP is designed to provide finance teams with the best of both worlds – fast, accurate, access to the latest data from your system of record, along with easy self-service analysis and customization.
+-    Oracle Fusion ERP Analytics is designed to provide finance teams with the best of both worlds – fast, accurate, access to the latest data from your system of record, along with easy self-service analysis and customization.
 -   Let's do some more exploration. Here we will introduce you to the out of the box GL profitability analysis and subject area and show you how to customize and extend to create new analysis and reports.
 
 ### **Step 1:** 
 
--   Starting from the My P&L deck, we’re going to drill into the out of the box Net Income Analysis.
+-   Starting from the **My P&L** deck, we’re going to drill into the out of the box Net Income Analysis.
 
--   Click the **Net Income KPI** card **hamburger menu icon**.
+-   Click the **Net Income PL** card **hamburger menu icon**.
 
 ![](./images/2-1a.png " ")
 
