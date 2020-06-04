@@ -23,7 +23,6 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 -   Learn how to perform a Custom Analysis on a Pre-Built Profitability Subject Area
 -   Learn how to explore a Balance Sheet Subject Area and create a Trial Balance
 -   Learn how to explore an Account Payables Project and create new reports 
--   Learn how to extend analysis with external data
 
 ### Required Artifacts
 
@@ -129,7 +128,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 9:** 
 
--   Name your deck “Payroll Deck.” 
+-   Name your deck **Payroll Deck <insert-initials-here>** 
 
 -   Click the **Save** button.
 
@@ -285,7 +284,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 22:**
 
--   Please delete any decks/cards you have made during this workshop by clicking on the cards' **menu bar** and selecting **Remove from Deck**
+-   Please delete any decks/cards you have made during this workshop by clicking on the cards' **menu bar** and selecting **Remove from Deck** for the cards, and **Delete** for the Deck
 
 ![](./images/5-13.png " ")
 
@@ -309,7 +308,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/2-1a.png " ")
 
--   Select **Net Income Analysis**
+-   Select **Income Analysis**.
 
 ![](./images/2-1b.png " ")
 
@@ -320,11 +319,20 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
     2. A quarterly trend for net Income, Revenue and Net Income Margin %
     3. Net income details.
 
--   Click the **Edit button** so we can customize this analysis
+-   Click the **Edit button** so we can customize this analysis. 
+-   **Note**: this may take some time. If the linked page does not load in a minute, please try using a different browser.
 
 ![](./images/2-2.png " ")
 
 ### **Step 3:** 
+-   First, begin by clicking on the **small down arrow icon** of the canvas and then **Duplicate Canvas**
+
+![](./images/part2-1.png " ")
+
+-   Rename the canvas by clicking on the **small down arrow icon** of the canvas and then **Rename**
+-   Input as the name the following, making sure to input your initials **Overview <insert-initials-here>**
+
+![](./images/part2-2.png " ")
 
 -   Let’s take a moment to tour the self-service project.
 -   On the canvas are our four familiar visualizations. Click to highlight one.
@@ -341,6 +349,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 -   Now we’ll build a few visualizations with the pre-built data in this subject area.
 
 -   Click the **+ icon** at the bottom of the screen to create a new canvas.
+
+-   Rename the canvas by clicking on the **small down arrow icon** of the canvas and then **Rename**
+-   Input as the name **Fiscal <insert-initials-here>**
+
+![](./images/part2-2.png " ")
 
 -   To build our first visualization, let's make a simple pivot table. In the **Data pane**, do the following:
     1. Click to open the **Time** folder
@@ -505,6 +518,10 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/3-1.png " ")
 
+-   Please rename this new canvas to **Financial <insert-initials-here>** by clicking on the **small down arrow icon** of the canvas and then **Rename**
+
+![](./images/part2-2.png " ")
+
 ### **Step 2:** 
 
 -   We are going to build a visualization using the Financial – Balance Sheet subject area.
@@ -567,6 +584,12 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/3-6.png " ")
 
+### **Step 7:**
+
+-    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be three canvases you need to delete, **Overview <insert-initials-here>**, **Fiscal <insert-initials-here>**, and **Financial <insert-initials-here>**
+
+![](./images/part2-3.png " ")
+
 
 ## Part 4. Explore Account Payables Project and Create New Reports
 
@@ -592,7 +615,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 3:** 
 
--   Click **AP Analysis – Lab**
+-   Click **AP Analysis Lab**
 
 ![](./images/4-3.png " ")
 
@@ -606,6 +629,10 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 -   Click the **+ icon** at the bottom of the screen to create a new canvas.
 
 ![](./images/4-4.png " ")
+
+-   Please rename this new canvas to **Analysis <insert-initials-here>** by clicking on the **small down arrow icon** of the canvas and then **Rename**
+
+![](./images/part2-2.png " ")
 
 ### **Step 5:** 
 
@@ -755,159 +782,15 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/4-18.png " ")
 
+### **Step 19:**
 
+-    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be one canvas  you need to delete in this project, **Analysis <insert-initials-here>**
 
-## Part 5. Extend Analysis with External Data
-
-### **Step 1:** 
-
--   Click the **+ icon** at the bottom of the screen to create a new canvas.
-
-![](./images/5-1.png " ")
-
-### **Step 2:** 
-
--   Click the **+ icon** on the top of the data pane.
-
--   Select **Add Data Set** in the popup window.
-
-![](./images/5-2a.png " ")
-
--   Click the **Create Data Set** button.
-
-![](./images/5-2b.png " ")
-
--   Click **Drop data file here** or **click to browse**.
-
--   Select the **dun_bradstreet_ratings.xlsx** excel file you downloaded previously.
-
--   Click the **Open** button.
-
-![](./images/5-2c.png " ")
-
-### **Step 3:** 
-
--   Observe the column definitions in the dun and bradstreet ratings file.
--   The PAYDEX score measures a business’s past payment performance essentially the credit rating.
--   The Supplier Evaluation Risk (SER) Rating helps predict the chance a supplier will become inactive or shut down in the next 12 months.
-
--   Click the **Add** button
-
-![](./images/5-3.png " ")
-
-### **Step 4:** 
-
--   Click the **Data Diagram** tab at the bottom of the window.
-
-![](./images/5-4.png " ")
-
-### **Step 5:** 
-
--   The system automatically joins fields with the same name.
-
--   Click the **blue bubble “1”** on the join line to examine how the new spreadsheet is joined to the pre-built subject area data.
-
--   Observe that it matched on supplier name. If there was no automatic match then you could add the match manually.
-
--   Click the **Cancel** button.
-
-![](./images/5-5a.png " ")
-
--   In the upper right of the screen, click the **Visualize** link.
-
-![](./images/5-5b.png " ")
-
-
-### **Step 6:** 
-
--   Let’s create a visualization that uses data from both the subject area and the excel file.
-
--   In the data pane, click the **Supplier** folder to expand it
--   Double click **Supplier Name**
-
-![](./images/5-6a.png " ")
- 
--   Click **Facts – Ledger Currency** folder to expand it.
--   Double Click **Invoice Amount**
-
-![](./images/5-6b.png " ")
-
--   Click **dun_broadstreet_ratings** folder to expand it.
--   Double Click **SER Rating**
-
-![](./images/5-6c.png " ")
-
-### **Step 7:** 
-
--   The system automatically creates a scatter chart in which each bubble represents a supplier. A SER Rating of closer to 10 indicates high risk. Let’s add PAYDEX into the scatter.
-
--   In the data pane, double click **PAYDEX** from the **dun_broadstreet_ratings** folder so that PAYDEX is added to the visualization as the bubble color
-
-![](./images/5-7.png " ")
-
-### **Step 8:** 
-
--   Let’s add Invoice count into the scatter.
-
--   In the data pane, double click the **Invoices Count from the Facts – Ledger Currency** folder so that **Invoices Count** is added to the visualization as the bubble size
-
-![](./images/5-8.png " ")
-
-### **Step 9:** 
-
--   Let’s filter for just the top 10 suppliers.
-
--   In the grammar pane, click on **# Invoices Amount** and drag to the **Filters** section. Disregard the popup window.
-
-![](./images/5-9a.png " ")
-
--   In the **Filters** section of the grammar pane, click **Invoice Amount** in the filter.
-
-![](./images/5-9b.png " ")
-
--   Hover over **Filter Type**.
--   Select **Top Bottom N**.
-
-![](./images/5-9c.png " ")
-
-### **Step 10:** 
-
--   A popup window appears. The default is 10, which we will accept.
-
--   Click anywhere on the visualization to close the popup window.
-
--   Your visualization should look similarly to the following image.
-
-![](./images/5-10.png " ")
-
-### **Step 11:** 
-
--   Let’s add data labels to the visualization.
-
--   At the bottom left settings panel, Click the **#** menu.
-
--   For the Data Label, select **Auto**
-
-![](./images/5-11.png " ")
-
-### **Step 12:** 
-
--   The visualization helps to identify a supplier that we may introduce some risk, and may require deeper analysis.
-
--   Click **Save As**.
-
--   Name your project **Net Income Analysis <your initials>**
-
--   Click the **Save** button
-
--   **Note**: If you see a generating thumbnail message, click **Skip** to ignore.
-
-![](./images/5-12.png " ")
-
+![](./images/part2-3.png " ")
 
 ## Summary
 
--   In this lab, you explored Oracle Fusion ERP Analytics. You navigated the Interface and pre-built content through KPI Cards, Decks, Alerts, and Analysis. You also performed a Custom Analysis on a Pre-Built Profitability Subject Area, explored a Balance Sheet Subject Area and created a Trial Balance. Additionally, you also explored an Account Payables Project and created new reports while extending analysis with external data.
+-   In this lab, you explored Oracle Fusion ERP Analytics. You navigated the Interface and pre-built content through KPI Cards, Decks, Alerts, and Analysis. You also performed a Custom Analysis on a Pre-Built Profitability Subject Area, explored a Balance Sheet Subject Area and created a Trial Balance. Additionally, you also explored an Account Payables Project and created new reports.
 
 -   Congratulations on completing this additional bonus lab!
 
