@@ -128,7 +128,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 9:** 
 
--   Name your deck **Payroll Deck <insert-initials-here>** 
+-   Name your deck **Payroll Deck ~InsertYourInitialsHere~** 
 
 -   Click the **Save** button.
 
@@ -330,7 +330,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 ![](./images/part2-1.png " ")
 
 -   Rename the canvas by clicking on the **small down arrow icon** of the canvas and then **Rename**
--   Input as the name the following, making sure to input your initials **Overview <insert-initials-here>**
+-   Input as the name the following, making sure to input your initials **Overview ~InsertYourInitialsHere~**
 
 ![](./images/part2-2.png " ")
 
@@ -351,7 +351,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 -   Click the **+ icon** at the bottom of the screen to create a new canvas.
 
 -   Rename the canvas by clicking on the **small down arrow icon** of the canvas and then **Rename**
--   Input as the name **Fiscal <insert-initials-here>**
+-   Input as the name **Fiscal ~InsertYourInitialsHere~**
 
 ![](./images/part2-2.png " ")
 
@@ -518,7 +518,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/3-1.png " ")
 
--   Please rename this new canvas to **Financial <insert-initials-here>** by clicking on the **small down arrow icon** of the canvas and then **Rename**
+-   Please rename this new canvas to **Financial ~InsertYourInitialsHere~** by clicking on the **small down arrow icon** of the canvas and then **Rename**
 
 ![](./images/part2-2.png " ")
 
@@ -586,7 +586,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 7:**
 
--    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be three canvases you need to delete, **Overview <insert-initials-here>**, **Fiscal <insert-initials-here>**, and **Financial <insert-initials-here>**
+-    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be three canvases you need to delete, **Overview ~InsertYourInitialsHere~**, **Fiscal ~InsertYourInitialsHere~**, and **Financial ~InsertYourInitialsHere~**
 
 ![](./images/part2-3.png " ")
 
@@ -630,7 +630,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/4-4.png " ")
 
--   Please rename this new canvas to **Analysis <insert-initials-here>** by clicking on the **small down arrow icon** of the canvas and then **Rename**
+-   Please rename this new canvas to **Analysis ~InsertYourInitialsHere~** by clicking on the **small down arrow icon** of the canvas and then **Rename**
 
 ![](./images/part2-2.png " ")
 
@@ -784,7 +784,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 19:**
 
--    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be one canvas  you need to delete in this project, **Analysis <insert-initials-here>**
+-    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be one canvas  you need to delete in this project, **Analysis ~InsertYourInitialsHere~**
 
 ![](./images/part2-3.png " ")
 
