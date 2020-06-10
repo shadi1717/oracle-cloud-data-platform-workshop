@@ -35,6 +35,8 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ## Part 1. Explore the Interface and Pre-Built Content: KPI Cards, Decks, Alerts, and Analysis
 
+-   **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
+
 ### **Step 1:** 
 
 -   Enter the credentials you were given and click the **Sign In** button.
@@ -195,9 +197,9 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/13b.png " ")
 
--   To make the visualization easier to read,  go to the **VIsualization** box and select **Line Bar Combo**.
+-   To make the visualization easier to read,  go to the **Visualization** box and select **Line Bar Combo**.
 
-![](./images/13.png " ")
+![](./images/13c.png " ")
 
 ### **Step 14:** 
 
@@ -207,13 +209,13 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 15:** 
 
--   Now, click the **Conditions** link. The colored line (in this case, red) at the top of the KPI Card is an alert. The default rule is that Payroll Cost >110% is set to red (“Critical”).
+-   Now, click the **Status and Notifications** tab. The colored line (in this case, red) at the top of the KPI Card is an alert. The default rule is that Payroll Cost >110% is set to red (“Critical”).
 
--   Let’s customize the alert condition. Change the 110% value to 130% by typing in **130**%.
+-   Let’s customize the alert status. Change the 110% value to 130% by typing in **130**%.
 
 -   Click the **Add Card** button.
 
-![](./images/15.png " ")
+![](./images/15new.png " ")
 
 ### **Step 16:** 
 
@@ -284,9 +286,9 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 22:**
 
--   Please delete any decks/cards you have made during this workshop by clicking on the cards' **menu bar** and selecting **Remove from Deck** for the cards, and **Delete** for the Deck
+-   Congratulations on completing this section! Please delete the deck with the cards you have made, which you named **Payroll Deck ~InsertYourInitialsHere~**, during this workshop by clicking on the decks' **menu bar** and selecting **Delete** for the Deck
 
-![](./images/5-13.png " ")
+![](./images/22new.png " ")
 
 -   To recap, in this part, you:
     1. Monitored business performance with pre-built KPIs and pre-built Decks
@@ -299,6 +301,8 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 -    Oracle Fusion ERP Analytics is designed to provide finance teams with the best of both worlds – fast, accurate, access to the latest data from your system of record, along with easy self-service analysis and customization.
 -   Let's do some more exploration. Here we will introduce you to the out of the box GL profitability analysis and subject area and show you how to customize and extend to create new analysis and reports.
+
+-   **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
 
 ### **Step 1:** 
 
@@ -416,7 +420,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 -   We’ll now further customize this visualization by adding data labels.
 
--   With **# Net Income selected**, scroll down to the bottom left settings panel.
+-   With **# Net Income** selected, scroll down to the bottom left settings panel.
 
 -   Click on the **#** menu, and make the following modifications:
     1. Data Label: Select **Auto**
@@ -512,6 +516,8 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ## Part 3. Explore Balance Sheet Subject Area and Create Trial Balance
 
+-   **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
+
 ### **Step 1:** 
 
 -   At the bottom of your screen, click the **+** icon to create a new canvas.
@@ -575,12 +581,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 6:** 
 
--   Your trial balance report should look similarly to the image below.
-
--   In the upper right hand corner of the screen, click the **Save As** icon.
--   Name the project **Net Income Analysis <last name>** and click the **Save** button.
-
--   **Note**: If you see a generating thumbnail message, click **Skip** to ignore.
+-   Let's take a month to digest the table. Your trial balance report should look similarly to the image below.
 
 ![](./images/3-6.png " ")
 
@@ -592,6 +593,8 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 
 ## Part 4. Explore Account Payables Project and Create New Reports
+
+-   **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
 
 ### **Step 1:** 
 
@@ -684,9 +687,9 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ![](./images/4-9a.png " ")
 
--   Hover over **Filter Type**
+-   Click **Filter Type**
 
--   Click **Top Bottom N**
+-   Then, click **Top Bottom N**
 
 ![](./images/4-9b.png " ")
 
@@ -736,7 +739,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 -   Select the **Combo icon** from the dropdown list
 
-![](./images/4-13.png " ")
+![](./images/4-13new.png " ")
 
 ### **Step 14:** 
 
