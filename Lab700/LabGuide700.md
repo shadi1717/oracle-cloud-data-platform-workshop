@@ -360,7 +360,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 ![](./images/part2-2.png " ")
 
 -   To build our first visualization, let's make a simple pivot table. In the **Data pane**, do the following:
-    1. Click to open the **Time** folder
+    1. Click to open the **Time** folder in the **Financials - GL Profitability** folder
     2. Right Click **Fiscal Quarter**
     3. Select **Pick Visualization** from the popup window
     4. Select the **Pivot icon**
@@ -384,6 +384,12 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 -   Double Click **Net Income**.
 
 -   And it’s as simple as that to create your first visualization – slicing and dicing net income by different dimensions.
+
+-   Let's finish by enabling a filter for two fiscal years by clicking on the **Fiscal Year (2)** filter's **hamburger menu icon** and then on **Enable Filter**
+
+![](./images/2-4d.png " ")
+
+-   Your visualizations should now look similar to the following: 
 
 ![](./images/2-4c.png " ")
 
@@ -587,9 +593,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 7:**
 
--    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be three canvases you need to delete, **Overview ~InsertYourInitialsHere~**, **Fiscal ~InsertYourInitialsHere~**, and **Financial ~InsertYourInitialsHere~**
+-    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete Canvas**. There should be three canvases you need to delete, **Overview ~InsertYourInitialsHere~**, **Fiscal ~InsertYourInitialsHere~**, and **Financial ~InsertYourInitialsHere~**
 
 ![](./images/part2-3.png " ")
+
+-   When exiting the project, make sure you don't save any changes made during the workshop by clicking on **Don't Save** when any **Save Changes?** text boxes pop up.
 
 
 ## Part 4. Explore Account Payables Project and Create New Reports
@@ -713,6 +721,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 ### **Step 12:** 
 
 -   In the search box, type **Invoices Amount**
+-   **Note**: if the data pane search feature is not getting any results, this may be a bug. Please, for the remainder of the workshop, do not use the data pane search feature, and instead go ahead and access the data manually as you have done earlier in the lab by going through the data pane on the left.
 -   Select **Invoices Amount** from **Financials – AP Invoices Facts – Ledger Currency** from the popup list
 
 ![](./images/4-12a.png " ")
@@ -787,9 +796,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 19:**
 
--    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete**. There should be one canvas  you need to delete in this project, **Analysis ~InsertYourInitialsHere~**
+-    Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete Canvas**. There should be one canvas  you need to delete in this project, **Analysis ~InsertYourInitialsHere~**
 
 ![](./images/part2-3.png " ")
+
+-   When exiting the instance, make sure you don't save any changes made during the workshop by clicking on **Don't Save** when any **Save Changes?** text boxes pop up.
 
 ## Summary
 
