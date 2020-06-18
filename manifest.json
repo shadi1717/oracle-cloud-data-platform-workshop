@@ -39,6 +39,11 @@
             "title": "[Optional] Lab 700: Oracle Fusion ERP Analytics",
             "publisheddate": "02/24/2020",
             "filename": "./Lab700/LabGuide700.md"
+        },
+        {
+            "title": "[Optional] Lab 1000: Oracle Management Cloud (OMC)",
+            "publisheddate": "02/24/2020",
+            "filename": "./Lab700/LabGuide1000.md"
         }
         
      ]
