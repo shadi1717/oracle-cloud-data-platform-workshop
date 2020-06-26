@@ -28,7 +28,7 @@ Oracle Management Cloud allows you to gain insight into your IT applications and
 
     ![](./images/omc1.png " ")
 
-2. In the side menu, navigate to **Platform Services**, then select **Management Cloud**.
+2. In the side menu, navigate to **Platform Services**, then select **Management Cloud**.  Note: It may take a couple of minutes to load this page.
 
     ![](./images/omc2.png " ")
 
@@ -72,7 +72,7 @@ Oracle Management Cloud allows you to gain insight into your IT applications and
 
 5. Now, you need to get your **API Signing Key**.  If you do not have a User API Key, you can generate one by opening up the Terminal(MacOS) or Command Prompt(Windows) application on your computer.
 
-6. Make sure you have either the Terminal(MacOS) or the Command Prompt(Windows) application open.  First, navigate to whichever directory you would like to store your credentials in.  You can do this using the **cd** command.  Here, I am navigating to a folder named API KEYS on my Desktop. You can choose whichever folder you'd like.
+6. Make sure you have either the Terminal(MacOS) or the Command Prompt(Windows) application open.  First, navigate to whichever directory you would like to store your credentials in.  You can do this using the **cd** command.  Here, I am navigating to a folder named .oci on my Desktop. (**cd .oci**) You can choose whichever folder you'd like.
 
     ![](./images/omc12.png " ")
 
