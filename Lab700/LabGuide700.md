@@ -288,7 +288,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 -   Congratulations on completing this section! Please delete the deck with the cards you have made, which you named **Payroll Deck ~InsertYourInitialsHere~**, during this workshop by clicking on the decks' **menu bar** and selecting **Delete** for the Deck
 
+-   Additionally, please go back to the console section where you left a **note** in Step 17 for a financial analyst to check out, and **delete** the note similarly.
+
 ![](./images/22new.png " ")
+
+
 
 -   To recap, in this part, you:
     1. Monitored business performance with pre-built KPIs and pre-built Decks
