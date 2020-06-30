@@ -9,10 +9,10 @@
 
 This lab walks you through the steps to use an existing Oracle Analytics Cloud (OAC) instance to connect to your Autonomous Data Warehouse (ADW) instance.
 
+
 *In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following image:
 [![Lab 400 Walkthrough Video](./images/lab400tn.png " ")](https://www.youtube.com/watch?v=H_SGzbIW3DA "Lab 400 Walkthrough Video - Click to Watch!")
 
-**_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ### Objectives
 -   Learn how to navigate to an Oracle Analytics Cloud instance
@@ -29,77 +29,66 @@ This lab walks you through the steps to use an existing Oracle Analytics Cloud (
 
 -   *Note*: If you already have an OAC instance provisioned, please skip "Part 0" and proceed to "Part 1" of this lab guide.
 
--   To begin, make sure to already be signed in to cloud.oracle.com with your account credentials as done before in the previous labs.
+1.   To begin, make sure to already be signed in to cloud.oracle.com with your account credentials as done before in the previous labs.
 
--   Then, in the Oracle Cloud console, click on the **Hamburger menu** icon. Then, scroll down to the **More Oracle Cloud Services** section, hover over **Platform Services** and then click on **Analytics**. 
+2.   Then, in the Oracle Cloud console, click on the **Hamburger menu** icon. Then, scroll down to the **Solutions and Platform** section, hover over **Analytics** and then click on **Analytics Cloud**. 
 
-![](./images/0a.png " ")
+   ![](./images/0a.png " ")
 
--   Click on **Create Instance**.
+3.   Make sure you are in the correct compartment by selecting your compartment from the dropdown on the lefthand side (hint: use the same compartment as your ADW instance).  Then, cllick on **Create Instance**.
 
-![](./images/0b.png " ")
+   ![](./images/ob.png " ")
 
--   Provide all the required information (fields specified by \*). For the **Instance Name**, input a name such as **OACDEMO**. For the **Region**, select from the dropdown box the same region as your ADW instance. For the **Number of OCPUs**, select from the dropdown box **2**.
+4.   Provide all the required information. For the **Instance Name**, input a name such as **OACDEMO**.  Make sure that you have the correct compartment selected (use the same one that you have your ADW instance in).  Leave the rest of the selections as the default selections, as shown in the image below.  When you are finished, click **Create**.
 
-![](./images/0c.png " ")
+   ![](./images/0c.png " ")
 
--   Then click on **Next**.
+7.   It will take a few minutes (could be up to 10 minutes) until your instance is fully provisioned and ready to use. Note the Status 'CREATING' shows that the service is being created. Wait until this process is fully completed, then the status will change.
 
--   After validating your configuration, click on **Create**.
+   ![](./images/0d.png " ")
 
-![](./images/0d.png " ")
+8.   After a few minutes refresh your page to see if your instance is available. Once your instance is green and in the 'ACTIVE' state, now your OAC instance is ready. In order to access your instance, click  **Open URL**. This will redirect you to a new page to the OAC home console. Save this web page link for future use.
 
--   It will take a few minutes until your instance is fully provisioned and ready to use. Note the Status and the sign which indicate that the service is being creating. Wait until this process is fully completed.
+   ![](./images/0e.png " ")
 
-![](./images/0e.png " ")
+9.   Welcome to the Oracle Analytics Cloud! Enjoy exploring it! If you are on the OAC home console page, as shown below, please skip "Part 1" as you already successfully created and navigated to your OAC instance.
 
--   After a few minutes refresh your page and you will see the status and the sign are disappeared. Now your OAC instance is ready. In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page to the OAC home console. Save this web page link for future use.
-
-![](./images/0f.png " ")
-
--   Welcome to the Oracle Analytics Cloud! Enjoy exploring it! If you are on the OAC home console page, as shown below, please skip "Part 1" as you already successfully created and navigated to your OAC instance.
-
-![](./images/0g.png " ")
-
+   ![](./images/0g.png " ")
 
 ## Part 1. Navigate to an OAC Instance
 
 ### **STEP 1**: Go to the Analytics Cloud Instance Page
 
--   If you are not already signed in, sign in to cloud.oracle.com with your account credentials as done before in the previous labs.
+1. If you are not already signed in, sign in to cloud.oracle.com with your account credentials as done in the previous labs.
 
--   Click on the **Hamburger menu** icon. Then, scroll down to the **More Oracle Cloud Services** section, hover over **Platform Services** and then click on **Analytics**. 
+2. Click on the **Hamburger menu** icon. Then, scroll down to the **Solutions and Platform** section, hover over **Analytics** and then click on **Analytics Cloud**. 
 
-![](./images/0a.png " ")
+    ![](./images/0a.png " ")
 
--   Find your OAC instance that you will be using. For example, clicking on the OAC instance **CloudDataWorkshop** is shown below.
+3. Make sure that you are in the correct compartment by using the dropdown menu on the lefthand side of your screen.  Then, find your OAC instance that you will be using. For example, we are using the OAC instance **OACDEMO** shown below.  In order to access your instance, click on the **menu icon**, denoted by triple dots, on the right side of your instance. Then, click on **Open URL** which redirects you to a new page. Save this web page link for future use.
 
-![](./images/400new1.png " ")
+    ![](./images/0a2.png " ")
 
--   In order to access your instance, click on the **hamburger icon** on the right side of your instance. Then, click on **Oracle Analytics Cloud URL** which redirects you to a new page to the OAC home console. Save this web page link for future use.
+5. Welcome to the Oracle Analytics Cloud! Enjoy exploring it!
 
-![](./images/400new2.png " ")
-
--   Welcome to the Oracle Analytics Cloud! Enjoy exploring it!
-
-![](./images/0g.png " ")
+    ![](./images/0g.png " ")
 
 
 ## Part 2. Connect OAC to ADW
 
 ### **STEP 1**: Connect OAC to ADW
 
--   In the Oracle Analytics Cloud Homepage, click on the **Create** button on the top-right and then click on **Connection** in the popped menu.
+1. In the Oracle Analytics Cloud Homepage, click on the **Create** button on the top-right and then click on **Connection** in the popped menu.
 
-![](./images/0h.png " ")
+    ![](./images/0h.png " ")
 
--   Select the **Oracle Autonomous Data Warehouse Cloud** from the existing connection types.
+2. Select the **Oracle Autonomous Data Warehouse Cloud** from the existing connection types.
 
-![](./images/0i.png " ")
+    ![](./images/0i.png " ")
 
--   Complete all the required fields in the wizard as described in the steps below and Save the connection. Note that you need the ADW instance **Wallet** file in order to be able to complete these fields (this step is similar to connecting  SQL Developer to the ADW instance). Please refer to previous labs for a refresher on how to access a Wallet file if needed.
+3. Complete all the required fields in the wizard as described in the steps below and Save the connection. Note that you need the ADW instance **Wallet** file in order to be able to complete these fields (this step is similar to connecting  SQL Developer to the ADW instance). Please refer to previous labs for a refresher on how to access a Wallet file if needed.
 
--   You should fill the following connection fields, then click **Save**:
+4. You should fill the following connection fields, then click **Save**:
 
 -   **Connection Name:** Type a name for this connection. For this, use the name you specified for your ADW: **ADW\_FIRSTNAME\_LASTNAME**. Note: In the screenshot below, it is shown as simply "ADWDEMO".
 
@@ -111,28 +100,28 @@ This lab walks you through the steps to use an existing Oracle Analytics Cloud (
 
 -   **Service Name:** Select your database name and desired service level (low, medium, high) from the drop down list. For this lab, select your instance service named **ADW\_FIRSTNAME\_LASTNAME\_high**.
 
-![](./images/0j.png " ")
+    ![](./images/0j.png " ")
 
--   You can now see your connection listed under the Connections tab in the Data page.
+5. You can now see your connection listed under the Connections tab in the Data page.
 
-![](./images/0k.png " ")
+    ![](./images/0k.png " ")
 
 
 ## Part 3. Import Datasets from ADW to OAC
 
 ### **STEP 1**: Configure a Database Connection
 
--   In the Oracle Analytics Cloud Homepage, click on the **Create** button on the top-right and then click on **Data Set** in the popped menu.
+1. In the Oracle Analytics Cloud Homepage, click on the **Create** button on the top-right and then click on **Data Set** in the popped menu.
 
-![](./images/1.png " ")
+    ![](./images/1.png " ")
 
--   Select the connection that you have created in previous step.
+2. Select the connection that you have created in previous step.
 
-![](./images/2.png " ")
+    ![](./images/2.png " ")
 
--   Select the **DEVELOPER** user from the list of users to import the datasets prepared in SQL Developer.
+3. Select the **DEVELOPER** user from the list of users to import the datasets prepared in SQL Developer.
 
-![](./images/3.png " ")
+    ![](./images/3.png " ")
 
 ### **STEP 2**: Import the Datasets to OAC
 
@@ -141,239 +130,239 @@ Now we will import the following tables to OAC:
 
 In the next steps, we show you how to import the **OOW\_DEMO\_STORES** table. You can repeat the same steps to import the other three tables.
 
--   Select the desired table (*OOW\_DEMO\_STORES* is the first one to import) from the list.
+1. Select the desired table (*OOW\_DEMO\_STORES* is the first one to import) from the list.
 
-![](./images/4.png " ")
+    ![](./images/4.png " ")
 
--   Add all columns to your selection by clicking on **Add All**. The auto-generated name for the new table will work fine. 
+2. Add all columns to your selection by clicking on **Add All**. The auto-generated name for the new table will work fine. 
 
-![](./images/5.png " ")
+    ![](./images/5.png " ")
 
--   Finish by clicking on **Add**. 
+3. Finish by clicking on **Add**. 
 
-![](./images/6.png " ")
+    ![](./images/6.png " ")
 
--   When the data set is loaded, change columns containing **ID** (such as *ID*, *REGION\_ID*, *STORE\_ID*, *PRODUCT\_ID*, etc.) from **Measure** type to **Attribute** type. In order to do so, click on the # sign next to the column name and select **Attribute** from the drop-down menu. Each data set will have a varying amount of columns containing **ID**. Make sure to check through all columns. The reason for changing the type is because we will not be performing any math operations on the IDs and hence we should treat the IDs as attributes.
+4. When the data set is loaded, change columns containing **ID** (such as *ID*, *REGION\_ID*, *STORE\_ID*, *PRODUCT\_ID*, etc.) from **Measure** type to **Attribute** type. In order to do so, click on the # sign next to the column name and select **Attribute** from the drop-down menu. Each data set will have a varying amount of columns containing **ID**. Make sure to check through all columns. The reason for changing the type is because we will not be performing any math operations on the IDs and hence we should treat the IDs as attributes.
 
-![](./images/7.png " ")
+    ![](./images/7.png " ")
 
--    Then click on **Apply Script**.
+5. Then click on **Apply Script**.
 
-![](./images/8.png " ")
+    ![](./images/8.png " ")
 
--   You are done with adding the first table. 
+6. You are done with adding the first table. 
 
 ### **STEP 3**: Add Additional Datasets
 
--   Repeat "Part 3 STEP 1" and "Part 3 STEP 2" for the remaining 3 tables mentioned above
+1. Repeat "Part 3 STEP 1" and "Part 3 STEP 2" for the remaining 3 tables mentioned above
 > (OOW\_DEMO\_REGIONS, OOW\_DEMO\_ITEMS, and OOW\_DEMO\_SALES\_HISTORY tables ).
 
--   After importing all the tables, you can see them by first clicking the **Hamburger menu** icon and then click on the **Data** section which should default to the **Data Sets** tab. 
+2. After importing all the tables, you can see them by first clicking the **Hamburger menu** icon and then click on the **Data** section which should default to the **Data Sets** tab. 
 
-![](./images/9.png " ")
+    ![](./images/9.png " ")
 
--   Confirm that you have imported 4 tables.
+3. Confirm that you have imported 4 tables.
 
-![](./images/10.png " ")
+    ![](./images/10.png " ")
 
 ## Part 4. Create a Data Flow
 
 ### **STEP 1**: Add and Join the Datasets
 
--   First, navigate back to the Oracle Analytics Cloud home page. Once you are back on the home page, click on **Create**, then on **Data Flow** to create a new data flow. 
+1. First, navigate back to the Oracle Analytics Cloud home page. Once you are back on the home page, click on **Create**, then on **Data Flow** to create a new data flow. 
 
-![](./images/11.png " ")
+    ![](./images/11.png " ")
 
--   A window will pop up asking for data sets to be selected. Continue by clicking on the *OOW\_DEMO\_REGIONS* Data Set and then clicking on **Add**.
+2. A window will pop up asking for data sets to be selected. Continue by clicking on the *OOW\_DEMO\_REGIONS* Data Set and then clicking on **Add**.
 
-![](./images/12.png " ")
+    ![](./images/12.png " ")
 
--   Click on the **Circled Plus** button and then on **Add Data**.
+3. Click on the **Circled Plus** button and then on **Add Data**.
 
-![](./images/13.png " ")
+    ![](./images/13.png " ")
 
--   Add the next data set *OOW\_DEMO\_STORES* by clicking on it and then clicking on **Add**.
+4. Add the next data set *OOW\_DEMO\_STORES* by clicking on it and then clicking on **Add**.
 
-![](./images/14.png " ")
+    ![](./images/14.png " ")
 
--   This will generate a Join step in the Data Flow Diagram. Modify it by selecting **All rows** in the drop down box for **Input 2** in the **Keep Rows** section.
+5. This will generate a Join step in the Data Flow Diagram. Modify it by selecting **All rows** in the drop down box for **Input 2** in the **Keep Rows** section.
 
-![](./images/15.png " ")
+    ![](./images/15.png " ")
 
--   Then, scroll down and under the **Match Columns** section, click on **ID** and then change it to **REGION_ID** from the drop down box for **Input 2**.
+6. Then, scroll down and under the **Match Columns** section, click on **ID** and then change it to **REGION_ID** from the drop down box for **Input 2**.
 
-![](./images/16.png " ")
+    ![](./images/16.png " ")
 
--   After configuring this Join step, click on the **Circled Plus** button again and then on **Add Data**.
+7. After configuring this Join step, click on the **Circled Plus** button again and then on **Add Data**.
 
-![](./images/17.png " ")
+    ![](./images/17.png " ")
 
--   Then add the next data set *OOW\_DEMO\_SALES\_HISTORY* by clicking on it and then clicking on **Add**.
+8. Then add the next data set *OOW\_DEMO\_SALES\_HISTORY* by clicking on it and then clicking on **Add**.
 
-![](./images/18.png " ")
+    ![](./images/18.png " ")
 
--   This will generate another Join step in the Data Flow Diagram. Modify it by selecting **All rows** in the drop down box for **Input 2** in the **Keep Rows** section.
+9. This will generate another Join step in the Data Flow Diagram. Modify it by selecting **All rows** in the drop down box for **Input 2** in the **Keep Rows** section.
 
-![](./images/19.png " ")
+    ![](./images/19.png " ")
 
--   Then, scroll down and under the **Match Columns** section, click on **ID** for **Input 1** and change it to **ID\_1** and click on **ID** for **Input 2** and change it to **STORE\_ID**.
+10. Then, scroll down and under the **Match Columns** section, click on **ID** for **Input 1** and change it to **ID\_1** and click on **ID** for **Input 2** and change it to **STORE\_ID**.
 
-![](./images/20.png " ")
+    ![](./images/20.png " ")
 
--   After configuring this second Join step, click on the **Circled Plus** button again and then on **Add Data**.
+11. After configuring this second Join step, click on the **Circled Plus** button again and then on **Add Data**.
 
-![](./images/21.png " ")
+    ![](./images/21.png " ")
 
--   Then add the next data set *OOW\_DEMO\_ITEMS* by clicking on it and then clicking on **Add**.
+12. Then add the next data set *OOW\_DEMO\_ITEMS* by clicking on it and then clicking on **Add**.
 
-![](./images/22.png " ")
+    ![](./images/22.png " ")
 
--   This will generate the third Join step in the Data Flow Diagram. Modify it by selecting **All rows** in the drop down box for **Input 1** in the **Keep Rows** section. Keep **Input 2** as **Matching rows**.
+13. This will generate the third Join step in the Data Flow Diagram. Modify it by selecting **All rows** in the drop down box for **Input 1** in the **Keep Rows** section. Keep **Input 2** as **Matching rows**.
 
-![](./images/23.png " ")
+    ![](./images/23.png " ")
 
--   Then, scroll down and under the **Match Columns** section, click on **ID** for **Input 1** and change it to **PRODUCT_ID**.
+14. Then, scroll down and under the **Match Columns** section, click on **ID** for **Input 1** and change it to **PRODUCT_ID**.
 
-![](./images/24.png " ")
+    ![](./images/24.png " ")
 
--   Now the 4 Data Sets have been joined.
+15. Now the 4 Data Sets have been joined.
 
 ### **STEP 2**: Select Columns
 
--   Since we are done adding the Join steps, click on the **Circled Plus** button again and then on **Select Columns** to help finalize the columns we want to keep.
+1. Since we are done adding the Join steps, click on the **Circled Plus** button again and then on **Select Columns** to help finalize the columns we want to keep.
 
 ![](./images/25.png " ")
 
--   All the columns will be selected. Let's select some columns we want to remove from this list by holding the ctrl button(Windows) or the command button(MacOS) and left clicking on the columns. Select the following:
+2. All the columns will be selected. Let's select some columns we want to remove from this list by holding the ctrl button(Windows) or the command button(MacOS) and left clicking on the columns. Select the following:
 > *IS\_DEFAULT\_YN*, *REGION\_COLOR*, *REGION\_ZOOM*, *ROW\_VERSION\_NUMBER*, *N1*, *N2*, *N3*, *N4*, *REGION\_ID*, *ROW\_VERSION\_NUMBER\_1*, *ID\_2*, *CREATED\_ON*, *DATE\_OF\_SALE*, *PRODUCT\_ID*, *STORE\_ID*, and *ROW\_VERSION\_NUMBER\_2*.
 
--   Having selected all the above columns, click **Remove selected**.
+3. Having selected all the above columns, click **Remove selected**.
 
-![](./images/26.png " ")
+    ![](./images/26.png " ")
 
--   We are done with selecting our columns. 
+4. We are done with selecting our columns. 
 
 ### **STEP 3**: Rename Columns
 
--   Let's rename some columns. Click on the **Circled Plus** button again and then on **Rename Columns** to help finalize the columns we want.
+1. Let's rename some columns. Click on the **Circled Plus** button again and then on **Rename Columns** to help finalize the columns we want.
 
--  ![](./images/27.png " ")
+    ![](./images/27.png " ")
 
--   Under the **Source** column, find **ID** and change the value in the **Rename** column to **REGION_ID**.
+2. Under the **Source** column, find **ID** and change the value in the **Rename** column to **REGION_ID**.
 
-![](./images/28.png " ")
+    ![](./images/28.png " ")
 
--   Next, keep scrolling down and under the **Source** column, find *ID_1* and change the value in the **Rename** column to *STORE_ID*.
+3. Next, keep scrolling down and under the **Source** column, find *ID_1* and change the value in the **Rename** column to *STORE_ID*.
 
--   Then, find *ID_3* and change the value in the **Rename** column to *ITEM_ID*.
+4. Then, find *ID_3* and change the value in the **Rename** column to *ITEM_ID*.
 
--   Finally, find **MSRP** and change the value in the **Rename** column to **SALE_PRICE**.
+5. Finally, find **MSRP** and change the value in the **Rename** column to **SALE_PRICE**.
 
--   We are done renaming columns. 
+6. We are done renaming columns. 
 
 ### **STEP 2**: Add Columns
 
--   Let's finish constructing our master table by adding columns. Do this by clicking on the **Circled Plus** button again and then on **Add Columns** to help finalize the columns.
+1. Let's finish constructing our master table by adding columns. Do this by clicking on the **Circled Plus** button again and then on **Add Columns** to help finalize the columns.
 
-![](./images/29.png " ")
+    ![](./images/29.png " ")
 
--   In the **Name** box, input **SALES**.
+2. In the **Name** box, input **SALES**.
 
-![](./images/30.png " ")
+    ![](./images/30.png " ")
 
--   In the code calculation box, type in (without the quotes): "QUANTITY"
+3. In the code calculation box, type in (without the quotes): "QUANTITY"
 
--   Wait a few seconds as the search query goes through and then click on the **# QUANTITY** popup.
+4. Wait a few seconds as the search query goes through and then click on the **# QUANTITY** popup.
 
-![](./images/31.png " ")
+    ![](./images/31.png " ")
 
--   Afterwards, continue typing the following (without the quotes): " * SALE_PRICE"
+5. Afterwards, continue typing the following (without the quotes): " * SALE_PRICE"
 
--   Wait a few seconds as the search query goes through and then click on the **# SALE_PRICE** popup.
+6. Wait a few seconds as the search query goes through and then click on the **# SALE_PRICE** popup.
 
-![](./images/32.png " ")
+    ![](./images/32.png " ")
 
--   Scroll down and click **Validate**.
+7. Scroll down and click **Validate**.
 
-![](./images/33.png " ")
+    ![](./images/33.png " ")
 
--   After the calculation is validated, finish by clicking **Apply**.
+8. After the calculation is validated, finish by clicking **Apply**.
 
-![](./images/34.png " ")
+    ![](./images/34.png " ")
 
--  Click on the **Gray Circled Plus** icon to add more columns. In the **Name** box, input **Discount**.
+9. Click on the **Gray Circled Plus** icon to add more columns. In the **Name** box, input **Discount**.
 
-![](./images/35.png " ")
+    ![](./images/35.png " ")
 
--   In the code calculation box, type in (without the quotes): "(ITEM_PRICE"
+10. In the code calculation box, type in (without the quotes): "(ITEM_PRICE"
 
--   Wait a few seconds as the search query goes through and then click on the **A ITEM_PRICE** popup.
+11. Wait a few seconds as the search query goes through and then click on the **A ITEM_PRICE** popup.
 
-![](./images/36.png " ")
+    ![](./images/36.png " ")
 
--   Afterwards, continue typing the following (without the quotes): "- SALE_PRICE)"
+12. Afterwards, continue typing the following (without the quotes): "- SALE_PRICE)"
 
--   Wait a few seconds as the search query goes through and then click on the **# SALE_PRICE** popup.
+13. Wait a few seconds as the search query goes through and then click on the **# SALE_PRICE** popup.
 
--   Then, continue typing the following (without the quotes): "/ ITEM_PRICE"
+14. Then, continue typing the following (without the quotes): "/ ITEM_PRICE"
 
--   Wait a few seconds as the search query goes through and then click on the **# ITEM_PRICE** popup.
+15. Wait a few seconds as the search query goes through and then click on the **# ITEM_PRICE** popup.
 
-![](./images/37.png " ")
+    ![](./images/37.png " ")
 
--   Scroll down and click **Validate**. After the calculation is validated, finish by clicking **Apply**.
+16. Scroll down and click **Validate**. After the calculation is validated, finish by clicking **Apply**.
 
-![](./images/38.png " ")
+    ![](./images/38.png " ")
 
--  Click on the **Gray Circled Plus** icon to add more columns. In the **Name** box, input **TRANSACTIONS**.
+17. Click on the **Gray Circled Plus** icon to add more columns. In the **Name** box, input **TRANSACTIONS**.
 
--   In the code calculation box, type in (without the quotes): "1"
+18. In the code calculation box, type in (without the quotes): "1"
 
-![](./images/39.png " ")
+    ![](./images/39.png " ")
 
--   Scroll down and click **Validate**. After the calculation is validated, finish by clicking **Apply**.
+19. Scroll down and click **Validate**. After the calculation is validated, finish by clicking **Apply**.
 
--   Now, click the **Circled Plus** icon to make a **Branch**. 
+20. Now, click the **Circled Plus** icon to make a **Branch**. 
 
-![](./images/40.png " ")
+    ![](./images/40.png " ")
 
--   Click the first **Save Data** in the data flow.  
+21. Click the first **Save Data** in the data flow.  
 
-![](./images/41.png " ")
+    ![](./images/41.png " ")
 
--   Make the name **Master_Table**.
+22. Make the name **Master_Table**.
 
-![](./images/42.png " ")
+    ![](./images/42.png " ")
 
--   Click the second **Save Data** in the data flow.  Make the name *Master\_Table\_ADW*. 
+23. Click the second **Save Data** in the data flow.  Make the name *Master\_Table\_ADW*. 
 
-![](./images/43.png " ")
+    ![](./images/43.png " ")
 
--   Change the **Save data to** dropdown box option to **Database Connection**. 
+24. Change the **Save data to** dropdown box option to **Database Connection**. 
 
-![](./images/44.png " ")
+    ![](./images/44.png " ")
 
--   Click **Select connection**.
+25. Click **Select connection**.
 
-![](./images/45.png " ")
+    ![](./images/45.png " ")
 
--   Select the connection.
+26. Select the connection.
 
-![](./images/46.png " ")
+    ![](./images/46.png " ")
 
--   Save the entire Data Flow by clicking the top right **Save** button.
+27. Save the entire Data Flow by clicking the top right **Save** button.
 
-![](./images/47.png " ")
+    ![](./images/47.png " ")
 
--   Name it **Demo Data Flow**.
+28. Name it **Demo Data Flow**.
 
-![](./images/48.png " ")
+    ![](./images/48.png " ")
 
--   After it's saved, click **Run Data Flow**.
+29. After it's saved, click **Run Data Flow**.
 
-![](./images/49.png " ")
+    ![](./images/49.png " ")
 
--   You are done creating the data flows for OAC. With this initial setup, your data flow now lets you take one or more data sources and organize and integrate them to produce a curated set of data that you can use to easily create effective visualizations. Time for visualizations!
+30. You are done creating the data flows for OAC. With this initial setup, your data flow now lets you take one or more data sources and organize and integrate them to produce a curated set of data that you can use to easily create effective visualizations. Time for visualizations!
 
 
 ## Summary
