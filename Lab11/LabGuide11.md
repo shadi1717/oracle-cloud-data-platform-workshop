@@ -1,8 +1,8 @@
-#  Lab 1000: Using Oracle Management Cloud (OMC) to Monitor ADW
+#  Using Oracle Management Cloud (OMC) to Monitor ADW
 
 ## Introduction
 
-Oracle Management Cloud allows you to gain insight into your IT applications and infrastructure. In this lab, you will learn how to connect to and monitor your Autonomous Database instances. 
+Oracle Management Cloud (OMC) allows you to gain insight into your IT applications and infrastructure. In this lab, you will learn how to connect to and monitor your Oracle Autonomous Database (ADB) instances such as Oracle Autonomous Warehouse (ADW).
 
 ### Objectives
 
@@ -24,7 +24,7 @@ Oracle Management Cloud allows you to gain insight into your IT applications and
 
 ## Part 0. Provision a Management Cloud Instance
 
-1. Inside of the OCI Console, click on the top left menu icon.
+1. Inside of the OCI (Oracle Cloud Infrastructure) Console, click on the top left menu icon.
 
     ![](./images/omc1.png " ")
 
@@ -32,7 +32,7 @@ Oracle Management Cloud allows you to gain insight into your IT applications and
 
     ![](./images/omc2.png " ")
 
-3. Once the Management Cloud Instances page loads, look at the top right of your screen to find the available regions.  **Select** from the drop down the same region in which you have spun up your ADW instance.
+3. Once the Management Cloud Instances page loads, look at the top right of your screen to find the available regions.  **Select** from the drop down the same region in which you have spun up your ADW instance. It is assumed for the purposes of this lab that you already have an ADW instance provisioned. If not, please refer to this workshop's other lab guide on setting up an ADW instance.
 
     ![](./images/omc3.png " ")
 
@@ -52,9 +52,9 @@ Oracle Management Cloud allows you to gain insight into your IT applications and
 
 ## Part 1. Set Up ADW Monitoring in OMC
 
-### **STEP 1**: Gather the following pieces of information using the OCI Console
+### **STEP 1**: Gather the Following Information Using the OCI Console
 
-1. First you will need to capture your **Tenancy OCID**.  To do so, click on the **profile icon** on the top right of your OCI console and select your **tenancy name**.
+1. First you will need to capture your **Tenancy OCID**.  To do so, click on the **profile icon** on the top right of your Oracle Cloud Infrastructure (OCI) console and select your **tenancy name**.
 
     ![](./images/omc8.png " ")
 
@@ -122,9 +122,7 @@ Oracle Management Cloud allows you to gain insight into your IT applications and
 
 5. To add your profile, type in a profile name.  Here, we are using **adwdiscoveryprofile**.  Next, select **Oracle Cloud Infrastructure** as the Cloud Service Provider from the dropdown.  Under Regions and Services, select the **region** your OMC/ADW instances are in, then select **Autonomous Data Warehouse** under Services.  
 
-
 6. For the credentials, select **New Credentials**, then enter in the information that you saved in your separate note file, entering your own name as the credential name, as shown below, and leaving the passphrase blank.  Note: For the **Private Key**, you will need to copy your Private API Key that you created in previous steps.  To do this, you can copy it to your clipboard using the following command in your terminal, making sure you're in the directory which contains your API Keys: **cat oci\_api\_key.pem | pbcopy**.  Instead of using terminal, you can also open your private key in TextEdit(MacOS) or Notepad(Windows), and simply copy your private key that way.
-
 
 7. When you are finished entering in all fields, click **Start Discovery** in the top right corner of the window.
 
@@ -211,8 +209,7 @@ However, this was only the first step to monitoring your IT solution. In additio
 
 ## Acknowledgements
 
-- **Author** - NATD Cloud Engineering - Austin Hub (Khader Mohiuddin, Jess Rein, Philip Pavlov, Naresh Sanodariya, Parshwa Shah, Tanvi Varadhachary)
-- **Last Updated By/Date** - Jess Rein, Cloud Engineer, June 2020
+- **Author** - NA Cloud Engineering - Austin (Khader Mohiuddin, Jess Rein, Philip Pavlov, Naresh Sanodariya, Parshwa Shah, Tanvi Varadhachary)
+- **Last Updated By/Date** - Philip Pavlov, Cloud Engineer, July 2020
 
 See an issue?  Please open up a request [here](https://github.com/oracle/learning-library/issues).   Please include the workshop name and lab in your request.    Please include the workshop name and lab in your request. 
-

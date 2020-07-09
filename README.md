@@ -20,12 +20,12 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 
 *In addition to the workshop*, feel free to watch the walkthrough companion videos by clicking on the following links below:
 
-1. [Lab 100 Walkthrough Video](https://www.youtube.com/watch?v=N1EoJtf1onE)
-2. [Lab 200 Walkthrough Video](https://www.youtube.com/watch?v=uprqKyeuxik)
-3. [Lab 300 Walkthrough Video](https://www.youtube.com/watch?v=Zq0qEgF0bMU)
-4. [Lab 400 Walkthrough Video](https://www.youtube.com/watch?v=H_SGzbIW3DA)
-5. [Lab 500 Walkthrough Video](https://www.youtube.com/watch?v=wlSVlFv1R2A)
-6. [Lab 600 Walkthrough Video](https://www.youtube.com/watch?v=I5prg0Ucso4)
+1. [Lab 2 Walkthrough Video](https://www.youtube.com/watch?v=N1EoJtf1onE)
+2. [Lab 3 Walkthrough Video](https://www.youtube.com/watch?v=uprqKyeuxik)
+3. [Lab 4 Walkthrough Video](https://www.youtube.com/watch?v=Zq0qEgF0bMU)
+4. [Lab 5 Walkthrough Video](https://www.youtube.com/watch?v=H_SGzbIW3DA)
+5. [Lab 6 Walkthrough Video](https://www.youtube.com/watch?v=wlSVlFv1R2A)
+6. [Lab 7 Walkthrough Video](https://www.youtube.com/watch?v=I5prg0Ucso4)
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 

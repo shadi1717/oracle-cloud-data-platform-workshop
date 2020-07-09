@@ -2,49 +2,43 @@
     "tutorials": [
         {            
             "title": "Workshop Overview",
-            "publisheddate": "02/24/2020",
             "filename": "./LabOverview/OverviewREADME.md"
         },
-        {            
-            "title": "Lab 100: Getting Started: Autonomous Data Warehouse (ADW) and Application Express (APEX)",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab100/LabGuide100.md"
+        {
+            "title": "Lab 1: Cloud Login",
+            "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/cloud-login-livelabs.md"
         },
         {            
-            "title": "Lab 200: Use Oracle Machine Learning (OML) to Run a Machine Learning Model and SQL Developer to Grant User Privileges",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab200/LabGuide200.md"
+            "title": "Lab 2: Autonomous Data Warehouse (ADW) and Application Express (APEX)",
+            "filename": "./Lab2/LabGuide2.md"
         },
         {            
-            "title": "Lab 300: Enabling Oracle Restful Data Services (ORDS) with APEX to Call and Create APIs",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab300/LabGuide300.md"
+            "title": "Lab 3: Oracle Machine Learning (OML) and SQL Developer",
+            "filename": "./Lab3/LabGuide3.md"
         },
         {            
-            "title": "Lab 400: Getting Started: Oracle Analytics Cloud (OAC)",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab400/LabGuide400.md"
+            "title": "Lab 4: Oracle Restful Data Services (ORDS) in APEX",
+            "filename": "./Lab4/LabGuide4.md"
         },
         {            
-            "title": "Lab 500: Visualizations in Oracle Analytics Cloud (OAC)",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab500/LabGuide500.md"
+            "title": "Lab 5: Getting Started: Oracle Analytics Cloud (OAC)",
+            "filename": "./Lab5/LabGuide5.md"
+        },
+        {            
+            "title": "Lab 6: Visualizations in Oracle Analytics Cloud (OAC)",
+            "filename": "./Lab6/LabGuide6.md"
         },
         {
-            "title": "Lab 600: Implementing APIs into Oracle Digital Assistant (ODA)",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab600/LabGuide600.md"
+            "title": "Lab 7: Oracle Digital Assistant (ODA) with APEX APIs",
+            "filename": "./Lab7/LabGuide7.md"
         },
         {
-            "title": "[Optional] Lab 700: Oracle Fusion ERP Analytics",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab700/LabGuide700.md"
+            "title": "[Optional] Lab 8: Oracle Fusion ERP Analytics",
+            "filename": "./Lab8/LabGuide8.md"
         },
         {
-            "title": "[Optional] Lab 1000: Oracle Management Cloud (OMC)",
-            "publisheddate": "02/24/2020",
-            "filename": "./Lab1000/LabGuide1000.md"
+            "title": "[Optional] Lab 11: Oracle Management Cloud (OMC)",
+            "filename": "./Lab11/LabGuide11.md"
         }
-        
      ]
 }

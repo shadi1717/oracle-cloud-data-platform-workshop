@@ -1,9 +1,4 @@
-# Lab 400: Getting Started with Oracle Analytics Cloud (OAC)
-
-<!-- Comment out table of contents
-## Table of Contents
-[Introduction](#introduction)
--->
+# Getting Started with Oracle Analytics Cloud (OAC)
 
 ## Introduction
 
@@ -11,7 +6,7 @@ This lab walks you through the steps to use an existing Oracle Analytics Cloud (
 
 
 *In addition to the workshop*, feel free to watch the walkthrough companion video by clicking on the following image:
-[![Lab 400 Walkthrough Video](./images/lab400tn.png " ")](https://www.youtube.com/watch?v=H_SGzbIW3DA "Lab 400 Walkthrough Video - Click to Watch!")
+[![Lab Walkthrough Video](./images/lab400tn.png " ")](https://www.youtube.com/watch?v=H_SGzbIW3DA "Lab Walkthrough Video - Click to Watch!")
 
 
 ### Objectives
@@ -369,6 +364,10 @@ In the next steps, we show you how to import the **OOW\_DEMO\_STORES** table. Yo
 
 -   In this lab, you provisioned a new Oracle Analytics Cloud (OAC) instance and connected your OAC instance to your Autonomouse Data Warehouse (ADW) instance.
 
--   **You are ready to move on to the next lab!**
 
-[Back to top](#introduction)
+## Acknowledgements
+
+- **Author** - NATD Cloud Engineering - Austin Hub (Khader Mohiuddin, Jess Rein, Philip Pavlov, Naresh Sanodariya, Parshwa Shah)
+- **Last Updated By/Date** - Philip Pavlov, Cloud Engineer, July 2020
+
+See an issue?  Please open up a request [here](https://github.com/oracle/learning-library/issues).   Please include the workshop name and lab in your request.    Please include the workshop name and lab in your request. 
