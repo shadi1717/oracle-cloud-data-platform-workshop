@@ -14,9 +14,9 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 ### Objectives
 
 -   Learn how to use the Oracle Fusion ERP Analytics interface through KPI Cards, Decks, Alerts, and Analysis
--   Learn how to perform a Custom Analysis on a Pre-Built Profitability Subject Area
--   Learn how to explore a Balance Sheet Subject Area and create a Trial Balance
--   Learn how to explore an Account Payables Project and create new reports 
+-   Learn how to create a KPI with an ERP Data Model and External Data
+-   Learn how to create an Analysis with an ERP Data Model 
+-   Learn how to blend ERP data with External Data
 
 ### Required Artifacts
 
@@ -296,13 +296,156 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
     4. Observed how an analyst can easily bring additional data sets – like HR data – into the platform to perform cross- functional analysis.
 
 
-## Part 2. Custom Analysis on Pre-Built Profitability Subject Area
+## Part 2. Create a KPI with the Prebuilt ERP Data Model and External Data
 
-1. Oracle Fusion ERP Analytics is designed to provide finance teams with the best of both worlds – fast, accurate, access to the latest data from your system of record, along with easy self-service analysis and customization.
+1. Next, let's use the Financials-AP Invoice prebuilt subject area to create a KPI for Outstanding Invoice Amounts.  We will be also using an excel file that holds the target value the company set for Outstanding Invoices
 
-2. Let's do some more exploration. Here we will introduce you to the out of the box GL profitability analysis and subject area and show you how to customize and extend to create new analysis and reports.
+### **Step 1:** 
 
-3. **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
+1. From the browser console, click on the upper left **hamburger menu icon** and then click on **KPIs**.
+
+![](./images/2-1.png " ")
+
+### **Step 2:** 
+
+1. Click the **Create** button.
+
+ ![](./images/2-2.png " ")
+ 
+ ### **Step 3:** 
+
+1. A "Add Data Set" window will pop-up. Select the **Financials-AP Invoice** Subject Area and then click on the **Add to KPI** button.
+
+![](./images/2-3.png " ")
+
+### **Step 4:** 
+
+1. A data pane window will appear in the left area of your screen. Click on the **+ icon** next to "Data Elements".
+
+ ![](./images/2-4-1.png " ")
+ 
+ 2.  Then, click on the **Data Sets** tab.
+ 
+![](./images/2-4-2.png " ")
+  
+3. Select the **Invoice Targets** Data Set and then click on the **Add to KPI** button.
+  
+![](./images/2-4-3.png " ")
+
+### **Step 5:** 
+
+1. You should now see the Overview page of your KPI. Enter the Name of the KPI as **AP Invoices XX** where XX are your initials. 
+
+2. Then, in the Tags field, type **invoice**.
+
+3. Proceed to the next step by clicking the **AP Invoices XX** name in the Data Elements pane on the left.
+
+![](./images/2-5.png " ")
+
+### **Step 6:** 
+
+1. In the bottom left settings pane, click the **gear icon**. Then, select **Stay Below Target** for the Target Goal
+
+![](./images/2-6-1.png " ")
+
+2. Select **Decrease over time** for Trends Goal
+
+![](./images/2-6-2.png " ")
+
+### **Step 7:** 
+ 
+1. Expand the **Financials – AP Invoices** folder by clicking on it. Then, expand the **Facts – Ledger Currency** folder (You will need to scroll to see this folder at the bottom of the data pane) and then drag **Invoices Amount** to the Measurement box in the Data section.
+
+![](./images/2-7.png " ")
+
+### **Step 8:** 
+ 
+1. Expand the **Invoice Targets** folder in the data pane window on the left. Then, drag **Invoice Target** to the Target box.
+
+![](./images/2-8.png " ")
+
+### **Step 9:** 
+
+1. Scroll back to the **Facts – Ledger Currency** folder and drag **Invoice Count** to the Related Measurement box.
+
+![](./images/2-9.png " ")
+ 
+### **Step 10:** 
+ 
+1. Proceed to do the same for a few elements from the **Time** folder by clicking to expanding the folder. 
+ 
+2. Then, drag **Fiscal Year** to the Year box.
+ 
+3. Drag **Fiscal Quarter** to the Quarter box.
+ 
+4. Drag **Fiscal Period** to the Month box.
+ 
+![](./images/2-10.png " ")
+  
+### **Step 11:** 
+   
+1. Click to open the the **Ledger** folder
+
+2. Drag **Ledger** to the Related Grouping Categories box
+
+![](./images/2-11-1.png " ")
+
+3. Click to open the **Payables Invoicing Business Unit** folder
+
+4. Drag Payables Invoicing Business Unit Name to Related Grouping Categories
+   
+![](./images/2-11-2.png " ")
+
+### **Step 12:** 
+   
+1. Let's observe some conditions. Scroll down to the bottom of the screen. Notice the **Conditions** and **Links** options. This is where you can specify the target ranges as well as link to other analysis such as a Project, Dashboard or Analyses. We will leave these as the are today.
+   
+![](./images/2-12.png " ")
+
+### **Step 13:** 
+   
+1.  Click the **Save** button at the top.
+   
+![](./images/2-13.png " ")
+
+### **Step 14:** 
+   
+1. Let's go back to view the decks. Click on the upper left **hamburger menu icon** and then click on **Decks**.
+   
+![](./images/2-14.png " ")
+
+### **Step 15:** 
+   
+1. Select the **Payroll Deck**.
+   
+![](./images/2-15.png " ")
+
+### **Step 16:** 
+   
+1. First, let’s add the **AP Invoices XX** KPI to this new deck by clicking the **+ icon**.
+   
+![](./images/2-16.png " ")
+
+### **Step 17:** 
+   
+1. Select your **AP Invoices XX** KPI. 
+
+![](./images/2-17-1.png " ")
+
+2. Then, click the **Add Card** button.
+
+![](./images/2-17-2.png " ")
+
+### **Step 18:** 
+   
+1. Congratulations, your new KPI for AP Invoices is now added to your Payroll Deck and is available for viewing and use!
+   
+![](./images/2-18.png " ")
+
+
+## Part 3. Create an Analysis with the Pre-Built ERP Data Model 
+
+1. Now, let's take a look at the out of the box GL profitability analysis and subject area and see how to customize and extend them to create new analysis and reports.
 
 ### **Step 1:** 
 
@@ -310,11 +453,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 2. Click the **Net Income PL** card **hamburger menu icon**.
 
-![](./images/2-1a.png " ")
+![](./images/3-1a.png " ")
 
 3. Select **Income Analysis**.
 
-![](./images/2-1b.png " ")
+![](./images/3-1b.png " ")
 
 ### **Step 2:** 
 
@@ -326,7 +469,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 2. Click the **Edit button** so we can customize this analysis. 
 3. **Note**: this may take some time. If the linked page does not load in a minute, please try using a different browser.
 
-![](./images/2-2.png " ")
+![](./images/3-2.png " ")
 
 ### **Step 3:** 
 1. First, begin by clicking on the **small down arrow icon** of the canvas and then **Duplicate Canvas**
@@ -346,7 +489,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 8. From this data pane, you can see views of your finance data organized into constructs called subject areas. Here, we see the Financial – GL Profitability subject area. It is organized into folders containing attributes and metrics.
 9. Observe at the bottom left, you see the setting pane for whatever object we select.
 
-![](./images/2-3.png " ")
+![](./images/3-3.png " ")
 
 ### **Step 4:** 
 
@@ -365,7 +508,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
     3. Select **Pick Visualization** from the popup window
     4. Select the **Pivot icon**
 
-![](./images/2-4a.png " ")
+![](./images/3-4a.png " ")
 
 6. **Drag** the **Data pane** wider so you can see better.
 
@@ -375,7 +518,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 9. Scroll down the **data pane**.
 
-![](./images/2-4b.png " ")
+![](./images/3-4b.png " ")
 
 10. Click **Facts – Ledger Currency folder** to open.
 
@@ -387,11 +530,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 14. Let's finish by enabling a filter for two fiscal years by clicking on the **Fiscal Year (2)** filter's **hamburger menu icon** and then on **Enable Filter**
 
-![](./images/2-4d.png " ")
+![](./images/3-4d.png " ")
 
 15. Your visualizations should now look similar to the following: 
 
-![](./images/2-4c.png " ")
+![](./images/3-4c.png " ")
 
 ### **Step 5:** 
 
@@ -403,7 +546,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 4. Click on Duplicate Visualization to add a duplicate to the canvas.
 
-![](./images/2-5.png " ")
+![](./images/3-5.png " ")
 
 ### **Step 6:** 
 
@@ -413,14 +556,14 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 3. Select **Area icon** from the dropdown list.
 
-![](./images/2-6.png " ")
+![](./images/3-6.png " ")
 
 ### **Step 7:** 
 
 1. Your new “Area” visualization will now look like this. You can see that the combination of the table and the visualization helps tell the story more clearly.
 2. **Note**: If your new visualization looks different from what is shown, double-check the fields on the grammar pane and adjust it as necessary.
 
-![](./images/2-7.png " ")
+![](./images/3-7.png " ")
 
 ### **Step 8:** 
 
@@ -435,7 +578,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
     4. Decimal: Select **None**
     5. Abbreviate: Select **On**
 
-![](./images/2-8.png " ")
+![](./images/3-8.png " ")
 
 ### **Step 9:** 
 
@@ -447,7 +590,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 4. Click on **Duplicate Visualization**
 
-![](./images/2-9.png " ")
+![](./images/3-9.png " ")
 
 ### **Step 10:** 
 
@@ -455,7 +598,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 2. Click on one of the area visualizations and drag it above the pivot table. Watch for the blue bar to show before releasing your mouse.
 
-![](./images/2-10.png " ")
+![](./images/3-10.png " ")
 
 ### **Step 11:** 
 
@@ -463,7 +606,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 2. In the grammar pane on the left, remove **Fiscal Quarter** by clicking the **x**.
 
-![](./images/2-11.png " ")
+![](./images/3-11.png " ")
 
 ### **Step 12:** 
 
@@ -473,7 +616,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 3. Select **Donut** from the dropdown list.
 
-![](./images/2-12.png " ")
+![](./images/3-12.png " ")
 
 ### **Step 13:** 
 
@@ -483,13 +626,13 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 3. Click and drag **Fiscal Year** to the **Trellis Columns** area in the grammar pane.
 
-![](./images/2-13.png " ")
+![](./images/3-13.png " ")
 
 ### **Step 14:** 
 
 1. The visualization now compares net income by regional segments across fiscal years.
 
-![](./images/2-14.png " ")
+![](./images/3-14.png " ")
 
 ### **Step 15:** 
 
@@ -501,7 +644,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 4. Click **Duplicate Visualization** to add a duplicate to the canvas.
 
-![](./images/2-15.png " ")
+![](./images/3-15.png " ")
 
 ### **Step 16:** 
 
@@ -511,102 +654,23 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 3. Select **Language Narrative icon** from the dropdown list.
 
-![](./images/2-16.png " ")
+![](./images/3-16.png " ")
 
 ### **Step 17:** 
 
 1. A generated narrative describing the Area visualization will appear on the left.
 
-![](./images/2-17.png " ")
+![](./images/3-17.png " ")
 
+## Part 4. Blend ERP data with External Data
 
-## Part 3. Explore Balance Sheet Subject Area and Create Trial Balance
+1. Let's now go through how to extend your analysis by blending in an external data source that provides additional insight to your ERP data. 
 
-1. **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
-
-### **Step 1:** 
-
-1. At the bottom of your screen, click the **+** icon to create a new canvas.
-
-![](./images/3-1.png " ")
-
-2. Please rename this new canvas to **Financial ~InsertYourInitialsHere~** by clicking on the **small down arrow icon** of the canvas and then **Rename**
-
-![](./images/part2-2.png " ")
-
-### **Step 2:** 
-
-1. We are going to build a visualization using the Financial – Balance Sheet subject area.
-
-2. Click the **Financials – GL Profitability** to collapse it.
-
-3. Click **Financials – GL Balance Sheet** to expand it.
-
-![](./images/3-2.png " ")
-
-### **Step 3:** 
-
-1. In the data pane, click the **Facts – Ledger Currency** folder to open it.
-
-2. Click the **GL Balance (LC)** subfolder to open it.
-
-3. Select the following while holding the ctrl key (cmd key for mac users)
-    1. **# Activity Amount**
-    2.  **# Opening Amount**
-    3. **# Closing Amount**
-    4.  **# Debit Amount**
-    5. **# Credit Amount**
-
-4. After selecting them all, right click to then do the following:
-    1. Select **Pick Visualization**
-    2. Select **Pivot**
-
-![](./images/3-3.png " ")
-
-### **Step 4:** 
-
-1. Your pivot table will appear on the canvas. Let’s continue to build this pivot table.
-
-2. In the Data pane, click **Balancing Segment Hierarchy**folder to open it
-
-3. Double Click **Balancing Segment Level 30 Description**
-
-![](./images/3-4.png " ")
-
-### **Step 5:** 
-
-1. Click **Natural Account Hierarchy** folder to open it.
-
-2. Drag **Natural Account Level 30 Description** to Rows below **Balancing Segment Level 30 Name** (in the grammar pane).
-
-![](./images/3-5a.png " ")
-
-3. Drag **Natural Account Level 29 Description** to Rows below **Natural Account Level 30 Description** (in the grammar pane).
-
-![](./images/3-5b.png " ")
-
-### **Step 6:** 
-
-1. Let's take a month to digest the table. Your trial balance report should look similarly to the image below.
-
-![](./images/3-6.png " ")
-
-### **Step 7:**
-
-1. Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete Canvas**. There should be three canvases you need to delete, **Overview ~InsertYourInitialsHere~**, **Fiscal ~InsertYourInitialsHere~**, and **Financial ~InsertYourInitialsHere~**
-
-![](./images/part2-3.png " ")
-
-2. When exiting the project, make sure you don't save any changes made during the workshop by clicking on **Don't Save** when any **Save Changes?** text boxes pop up.
-
-
-## Part 4. Explore Account Payables Project and Create New Reports
-
-1. **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
+2. **Note**: when going through this lab, your visualizations may looks slightly different from what is seen in the lab guide. This is okay- the data on the backend instance is updated regularly so the visualizations may look differently for you.
 
 ### **Step 1:** 
 
-1. Let’s navigate to the Home page
+1. Let’s navigate to the Home page.
 
 2. Select the **hamburger menu icon** on the top left.
 
