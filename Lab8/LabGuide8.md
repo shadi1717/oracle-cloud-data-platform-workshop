@@ -711,155 +711,110 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 5:** 
 
-1. In the data pane:, click **Financials – AP Balances** to collapse it.
+1. Let's download an excel dataset file from this workshop to load into your instance. You can download it by clicking on the following text link: [Download supplier\_risk\_ratings.xlsx here](./files/supplier_risk_ratings.xlsx). Then, return back to Fusion ERP Analytics in your browser window.
 
-2. Click **Financials – AP Invoices** to expand it.
+2. In the data pane, click on the **+ icon** at the top and then select **Add Data Set** in the popup window.
 
-3. Click **Facts – Ledger Currency** folder to open it.
-4. Then, double click **Invoices Amount**
+![](./images/4-5-2.png " ")
 
-5. Click **Invoice Details** folder to open it.
-6. Then, click **Payment Terms** folder to open it.
-7. Then, double click **Payment Terms Name**.
+3. Click **Create Data Set** button.
 
-![](./images/4-5.png " ")
+![](./images/4-5-3.png " ")
 
+4. Click **Drop data file here or click to browse**.
+
+![](./images/4-5-4.png " ")
+
+5. Select the **supplier\_risk\_ratings.xlsx** excel file you downloaded previously and then click on the **Open** button.
 
 ### **Step 6:** 
 
-1. Your visualization should look like the following bar chart: Invoice Amount by Payment Terms. 
-2. Let’s refine by supplier.
+1. Observe the following column definitions in the supplier credit ratings file:
+    1. The Credit Risk score measures a business’s past payment performance.  
+    2. The Ability to Pay rating helps predict the chance a supplier will become inactive or shut down in the next 12 months.
 
-3. Click **Supplier** folder to open it
-
-4. Then, double click **Supplier Name** to automatically add it to your visualization.
+2. Continue by clicking the **Add** button.
 
 ![](./images/4-6.png " ")
 
 ### **Step 7:** 
 
-1. In the grammar pane, click **Auto Visualization (Bar)**
-
-2. Select the **Stacked bar icon** from the dropdown list
+1. Click the **Data Diagram** tab at the bottom of the window.
 
 ![](./images/4-7.png " ")
 
 ### **Step 8:** 
 
-1. We’ll now zero in on our top ten suppliers.
+1. The system automatically joins fields with the same name. Click the **blue bubble 1** on the join line to examine how the new spreadsheet is joined to the pre-built subject area data. Observe that it matched on supplier name. If there was no automatic match then you could add the match manually. Proceed by clicking the **OK** button.
 
-2. In the grammar pane, drag **Invoice Amount** from **Values** to the **Filter**.
+![](./images/4-8-1.png " ")
 
-![](./images/4-8.png " ")
+2. Then, in the upper right of the screen, click the **Visualize** link.
+
+![](./images/4-8-2.png " ")
 
 ### **Step 9:** 
 
-1. Disregard the pop-up window, and instead, at the bottom of the grammar pane, in Filters, click **Invoice Amount**
+1. Let’s create a visualization that uses data from both the subject area and the excel file. In the data pane, click the **Supplier** folder to expand it and then double click on  **Supplier Name**. 
 
-![](./images/4-9a.png " ")
+![](./images/4-9-1.png " ")
 
-2. Click **Filter Type**
+2. Now, click on the **Facts – Ledger Currency** folder to expand it and then double click on **Invoice Amount**.
 
-3. Then, click **Top Bottom N**
+![](./images/4-9-2.png " ")
 
-![](./images/4-9b.png " ")
+3. Then, click on the **supplier\_credit\_ratings** folder to expand it and double click on **Credit Risk**.
+
+![](./images/4-9-3.png " ")
 
 ### **Step 10:** 
 
-1. A popup window will appear with a default set to 10, which we will accept.
-
-2. Click anywhere on the visualization to make the popup window disappear.
-
-3. Now we see Invoice Amount by Payment Terms for our 10 top suppliers. We see a possible supplier candidate in the Net 30 to ask for longer payment terms.
+1. The system automatically creates a scatter chart in which each bubble represents a supplier. A Credit Rating of closer to 10 indicates high risk. Let’s add Ability to Pay into the scatter. In the data pane, double click on **Ability to Pay** from the **supplier\_credit\_ratings** folder. Ability to Pay will then be added to the visualization as the bubble color.
 
 ![](./images/4-10.png " ")
 
 ### **Step 11:** 
 
-1. Let’s create another visualization. But this time, we’ll try out one of the shortcut features – directly searching for attributes and metrics that we are already familiar with.
-2. In the data pane, click the **magnifying glass icon**
+1. Let’s add Invoice count into the scatter. In the data pane, double click on **Invoices Count** from the **Facts – Ledger Currency** folder. Invoices Count is then added to the visualization as the bubble size.
 
 ![](./images/4-11.png " ")
 
 ### **Step 12:** 
 
-1. In the search box, type **Invoices Amount**
-2. **Note**: if the data pane search feature is not getting any results, this may be a bug. Please, for the remainder of the workshop, do not use the data pane search feature, and instead go ahead and access the data manually as you have done earlier in the lab by going through the data pane on the left.
-3. Select **Invoices Amount** from **Financials – AP Invoices Facts – Ledger Currency** from the popup list
+1. Let’s filter for just the top 10 suppliers. In the grammar pane, click on **# Invoices Amount** and drag it to the **Filters** section. Disregard the popup window.
 
-![](./images/4-12a.png " ")
+![](./images/4-12-1.png " ")
 
-4. Then, in the search box, type **Invoices Count**
-5. Select **Invoices Count** from **Financials – AP Invoices Facts – Ledger Currency** from the popup list
+2. In the **Filters** section of the grammar pane, do the following:
+    1. Click on **Invoice Amount** in the filter. 
+    2. Hover over or click on **Filter Type**. 
+    3. Select **Top Bottom N**.
 
-![](./images/4-12b.png " ")
-
-6. Finally, again in the search box, type **Invoiced Fiscal Quarter**
-7. Select **Invoiced Fiscal Quarter** from **Financials – AP Invoices Date** from the popup list
-
-![](./images/4-12c.png " ")
-
-8. Then, select **Create Visual**.
-
-![](./images/4-12d.png " ")
+![](./images/4-12-2.png " ")
 
 ### **Step 13:** 
 
-1. Your visualizations will look similarly to the images below. We’ll now make a series of tweaks to make them easier to read.
+1. A popup window will appear. The default is 10, which we will accept. Click anywhere on the visualization to close the popup window. Your visualization should look similar to this:
 
-2. In the grammar pane, click **Area**
-
-3. Select the **Combo icon** from the dropdown list
-
-![](./images/4-13new.png " ")
+![](./images/4-13.png " ")
 
 ### **Step 14:** 
 
-1. In the grammar pane, in the Color section, click on **# Invoices Count**
-
-2. Drag it to the **Values (Y-Axis)** section
-
-3. Drop it on the blue line that appears below **# Invoices Amount**
+1. Let’s add data labels to the visualization. At the bottom left settings panel, click on the **#** icon to access its menu. Then, click on the **Data Label** option and click on  **Auto**.
 
 ![](./images/4-14.png " ")
 
 ### **Step 15:** 
 
-1. In the grammar pane, right click **# Invoices Amount**
-
-2. Select **Bar**
+1. The visualization helps to identify a supplier that we may introduce some risk, and may require deeper analysis. For now, let's go ahead and save your work. 
 
 ![](./images/4-15.png " ")
 
-### **Step 16:** 
+2. First, click **Save As** at the top. Then, name your project **Net Income Analysis XX** where XX are your initials. Proceed by clicking on the **Save** button. Note: you may see a generating thumbnail message. If you do, click on **Skip** to ignore it.
 
-1. In the grammar pane, right click **# Invoices Count**
+### **Step 16:**
 
-2. Select **Y2 Axis**
-
-![](./images/4-16.png " ")
-
-### **Step 17:** 
-
-1. Now we see the invoice transaction trend by quarterly. Let’s click to add a statistical forecast.
-
-2. On the upper right of the visualization, click the **hamburger menu icon**
-
-3. Then, hover over **Add Statistics**
-
-4. Click **Forecast**
-
-![](./images/4-17.png " ")
-
-### **Step 18:** 
-
-1. Your visualization should look like the following, displaying a new three quarter forecast.
-
-![](./images/4-18.png " ")
-
-### **Step 19:**
-
-1. Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete Canvas**. There should be one canvas  you need to delete in this project, **Analysis ~InsertYourInitialsHere~**
+1. Nice work on making these canvases and visualizations! Please go ahead and delete the canvases with your initials at this time by clicking on the canvas **down arrow icon** and selecting **Delete Canvas**. There should be one canvas you need to delete in this project, **Analysis ~InsertYourInitialsHere~**. Please do the same for your **Net Income Analysis XX** project.
 
 ![](./images/part2-3.png " ")
 
