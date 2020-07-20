@@ -35,6 +35,8 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 - Create Machine Learning Models within the Autonomous Data Warehouse (ADW) Instance by using the Oracle Machine Learning Tool (OML)
 - Visualize Data and Prediction Models in Oracle Analytics Cloud (OAC)
 - Bonus: Integrate a 3rd Party Web App and Oracle Digital Assistant (ODA) Chatbot
+- Bonus: Build Visualization Cards and Reports with Oracle Fusion ERP Analytics
+- Bonus: Monitor Databases with Oracle Management Cloud (OMC)
 
 
 ### Required Artifacts
@@ -59,6 +61,6 @@ Here is an example of that Cloud Data Platform Architecture which can be extende
 ### Option 3 *[Preferred]*: Use an Existing Oracle Cloud Tenancy Account
 - If you already have access to an Oracle Cloud tenancy account, please use it for the purposes of this workshop. As a reminder, your tenancy must allow you as a user to have access to cloud services and resources as mentioned above in the "Required Artifacts" section of this lab guide.
 
-## Access the Labs and Navigate to Lab 100
+## Access the Labs and Navigate to Them
 
 - Access the labs using our user-friendly web interface here: [Cloud Data Platform Workshop](https://austindatamanagement.github.io/oracle-cloud-data-platform-workshop/)

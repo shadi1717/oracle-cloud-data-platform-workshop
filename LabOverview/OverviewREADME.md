@@ -40,6 +40,8 @@ To get an idea of how these services correlate to one another, here is an exampl
 - Create Machine Learning Models within the Autonomous Data Warehouse (ADW) Instance by using the Oracle Machine Learning Tool (OML)
 - Visualize Data and Prediction Models in Oracle Analytics Cloud (OAC)
 - Bonus: Integrate a 3rd Party Web App and Oracle Digital Assistant (ODA) Chatbot
+- Bonus: Build Visualization Cards and Reports with Oracle Fusion ERP Analytics
+- Bonus: Monitor Databases with Oracle Management Cloud (OMC)
 
 
 ### Required Artifacts
@@ -64,10 +66,10 @@ To get an idea of how these services correlate to one another, here is an exampl
 ### Option 3 *[Preferred]*: Use an Existing Oracle Cloud Tenancy Account
 - If you already have access to an Oracle Cloud tenancy account, please use it for the purposes of this workshop. As a reminder, your tenancy must allow you as a user to have access to cloud services and resources as mentioned above in the "Required Artifacts" section of this lab guide.
 
-## Navigate to Lab 100
+## Navigate to the Labs
 
 -   You can always see a list of Lab Guides by clicking on the top right hamburger menu. A sidebar on the right of your browser window will come up. 
 
--   **You're now ready to continue with Lab 100!**
+-   **You're now ready to continue with the labs!**
 
 [Back to top](#introduction)
