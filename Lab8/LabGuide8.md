@@ -20,7 +20,6 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### Required Artifacts
 
--   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 -   *To access the workshop environment*, you will need internet access and a modern web browser. Your instructor will provide you with a URL for the Oracle Fusion ERP Analytics instance and you will be assigned a username and password. Please refer to your instructor's confluence page for details. 
 -   The estimated time to complete this lab is 40 minutes.
 
@@ -28,6 +27,11 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 -   To learn more about Oracle Fusion ERP Analytics, feel free to explore the capabilities by clicking on this link: [Oracle Fusion ERP Analytics Getting Started Documentation](https://docs.oracle.com/en/cloud/saas/analytics/fawag/get-started-oracle-analytics-applications.html#GUID-66FF30CB-C4C4-4184-9223-DE5AE3E83C80)
 
 ## Part 1. Explore the Interface and Pre-Built Content: KPI Cards, Decks, Alerts, and Analysis
+
+1. We’ll start our experience with Oracle Fusion ERP Analytics by getting a good understanding of the out-of-the-box KPIs that finance executives and management can use to stay on top of the business. 
+
+2. The product contains a library of 50+ pre-built Key Performance Indicators (KPIs) around profit and loss, balance sheets, financial ratios, receivables, and payables. You will learn to read the KPIs, leverage pre-built Decks or create simple customized decks, set alerts, and perform some additional analysis. 
+
 
 ### **Step 1:** 
 
@@ -755,7 +759,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 9:** 
 
-1. Let’s create a visualization that uses data from both the subject area and the excel file. In the data pane, click the **Supplier** folder to expand it and then double click on  **Supplier Name**. 
+1. Let’s create a visualization that uses data from both the subject area and the excel file. In the data pane, click the **Supplier** folder to expand it and then double click on **Supplier Name**. 
 
 ![](./images/4-9-1.png " ")
 
