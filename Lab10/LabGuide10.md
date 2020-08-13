@@ -523,7 +523,7 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 Congratulations! You have just completed the Oracle Data Safe Lab.
 
 **Summary** 
-In this lab, you registered your Autonomous Database to your Data Safe instance. You were able to assess database configurations, access users, discover senstivie data and update sensitive data model. 
+In this lab, you registered your Autonomous Database to your Data Safe instance. You were able to assess database configurations, assess users, discover senstivie data and update sensitive data model. 
 
 **Acknowledgements**
 Author - NA Cloud Engineering - Austin
