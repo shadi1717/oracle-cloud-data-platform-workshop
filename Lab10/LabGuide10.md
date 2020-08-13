@@ -12,7 +12,7 @@ This lab walks you through the steps to get started using Oracle Data Safe on Or
 -   Learn how to assess users and database configurations with Oracle Data Safe 
 -   Learn how to discover, verify and update a sensitive data model with Oracle Data Safe
 -   Learn how to create a sensitive type and category with Oracle Data Safe
--   Learn how to mask senstive data with Oracle Data Safe
+-   Learn how to mask sensitive data with Oracle Data Safe
 
 ### Required Artifacts
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
@@ -523,7 +523,7 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 Congratulations! You have just completed the Oracle Data Safe Lab.
 
 **Summary** 
-In this lab, you registered your Autonomous Database to your Data Safe instance. You were able to assess database configurations, access users, discover senstivie data and update sensitive data model. 
+In this lab, you registered your Autonomous Database to your Data Safe instance. You were able to assess database configurations, assess users, discover senstivie data and update sensitive data model. 
 
 **Acknowledgements**
 Author - NA Cloud Engineering - Austin
