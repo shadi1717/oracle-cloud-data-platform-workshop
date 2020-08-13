@@ -142,8 +142,8 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 1.	At the top of the report, click **Evaluate** to filter the report to show only the Evaluate findings.
 <!-- Image 7--> 
 ![](./images/2.2.1.png " ")<!--<br/>-->
-2.	Focus on **System Privilege Grants** under Privileges and Roles.<br/>
-3.	System privileges (**ALTER USER, CREATE USER, DROP USER**) can be used to create and modify other user accounts, including the ability to change passwords. 		This ability can be abused to gain access to another user's account, which may have greater privileges. **The Privilege Analysis feature may be helpful 	to determine whether or not a user or role has used account management privileges.**<br/>
+2.	Focus on **System Privilege Grants** under Privileges and Roles.<!--br/-->
+3.	System privileges (**ALTER USER, CREATE USER, DROP USER**) can be used to create and modify other user accounts, including the ability to change passwords. 		This ability can be abused to gain access to another user's account, which may have greater privileges. **The Privilege Analysis feature may be helpful 	to determine whether or not a user or role has used account management privileges.**<!--br/-->
 <!-- Image 8-->
 ![](./images/2.2.2.png " ")<!--<br/>-->
 
@@ -185,7 +185,7 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 ![](./images/3.3.5.png " ")<!--<br/>-->
 
 4.	On the right, expand the roles to view the privileges. 
-5.	On the left, click the question mark next to **Risk**. Here you can review the factors that designate a user as Critical, High, Medium, or Low risk.<br/>
+5.	On the left, click the question mark next to **Risk**. Here you can review the factors that designate a user as Critical, High, Medium, or Low risk.<!--br/-->
 6.	Close the User Details dialog box.<!--<br/>-->
 
 ## Part 4. Discover Sensitive Data with Oracle Data Safe
@@ -312,8 +312,8 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 3. At the top of the dialog box in the **Sensitive Type** field, enter **age**. AGE is automatically retrieved as a sensitive type and you can select it.
 <!-- Image-->
 ![](./images/5.3.4.png " ")<!--<br/>-->
-4. Scroll to the bottom and click **Add to Result**. Your sensitive data model is updated to include the AGE column.<br/>
-5. To verify, enter age in the search box. HCM1.EMPLOYEES.AGE should be listed under **Biographic Information**.<br/>
+4. Scroll to the bottom and click **Add to Result**. Your sensitive data model is updated to include the AGE column.<!--br/-->
+5. To verify, enter age in the search box. HCM1.EMPLOYEES.AGE should be listed under **Biographic Information**.<!--br/-->
 <!-- Image-->
 ![](./images/5.3.5.png " ")<!--<br/>-->
 6. Click **Save and Continue** and then **Exit**.
@@ -382,7 +382,7 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 
 ### Step 2:
 1. Navigate to the Oracle Data Safe Service Console
-2. In the Oracle Data Safe Console, click **Data Discovery**. The Select Target for Data Discovery page is displayed.<br/>
+2. In the Oracle Data Safe Console, click **Data Discovery**. The Select Target for Data Discovery page is displayed.<!--br/-->
 <!-- Image--> 
 ![](./images/6.2.1.png " ")<!--<br/>-->
 	i. Select your target database, and then click **Continue**. The **Select Sensitive Data Model** page is displayed.<!--<br/>-->
