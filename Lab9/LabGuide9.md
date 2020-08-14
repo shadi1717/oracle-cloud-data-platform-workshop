@@ -73,7 +73,7 @@ Oracle Cloud Infrastructure (OCI) Datascience platform allows you to leverage de
 
 7. Now you have successfully created a Datascience platform project and notebook session, which is integrated with your VCN and Compute instance for all the networking and computation needs of your data science work.
 
-## Part 2. Use OCI Datascience to Run Notebooks
+## Part 1. Use OCI Datascience to Run Data Science Notebooks 
 
 ### **STEP 1**: Navigate to the OCI Datascience Notebook Session Interface
 
@@ -125,7 +125,7 @@ Oracle Cloud Infrastructure (OCI) Datascience platform allows you to leverage de
 
 ![](./images/19.png " ")
 
-## Part 3. Bonus: Deploy a Model to Oracle Functions with Oracle Cloud Shell
+## Part 2. Bonus: Deploy a Model to Oracle Functions with Oracle Cloud Shell
 
 ### **STEP 1**: Set up Oracle Cloud Shell and Oracle Functions
 
