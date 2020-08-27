@@ -47,6 +47,34 @@
         {
             "title": "[Optional] Lab 11: Oracle Management Cloud (OMC)",
             "filename": "./Lab11/LabGuide11.md"
+        },
+        {
+            "title": "Lab 12: Introduction to Essbase",
+            "filename": "./Lab12/LabGuide12.md"
+        },
+        {
+            "title": "Lab 13: Essbase on OCI",
+            "filename": "./Lab13/LabGuide13.md"
+        },
+        {
+            "title": "Lab 14: Essbase Features: Basic",
+            "filename": "./Lab14/LabGuide14.md"
+        },
+        {
+            "title": "Lab 15: Essbase Features: Advanced",
+            "filename": "./Lab15/LabGuide15.md"
+        },
+        {
+            "title": "Lab 16: Essbase and ADW",
+            "filename": "./Lab16/LabGuide16.md"
+        },
+        {
+            "title": "Lab 17: Scenario Management",
+            "filename": "./Lab17/LabGuide17.md"
+        },
+        {
+            "title": "Lab 18: Essbase and Data Visualization",
+            "filename": "./Lab18/LabGuide18.md"
         }
      ]
 }
