@@ -83,9 +83,10 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 - The following table describes the available roles for Autonomous Databases [here](https://docs.oracle.com/en/cloud/paas/data-safe/udscs/register-autonomous-databases-that-have-public-ip-addresses.html#GUID-1026A408-2D57-420C-927B-588948C2A89C).
 
 ![](./images/1.01.png "")<!--<br/>--> 
+![](./images/1.25.png "")
 **NOTE**:You can grant or revoke roles as often as needed.
 1. Using a tool like SQL Developer, log in to your Autonomous Database as the Admin user (ADMIN).
-
+![](./images/1.22.png "")
 2. Grant or revoke a role from the Oracle Data Safe service account by running one of the following commands:
 	`EXECUTE DS_TARGET_UTIL.GRANT_ROLE('role_name');`
 	or
@@ -98,10 +99,13 @@ For more information please see [Data Safe Documentation](https://docs.oracle.co
 `EXECUTE DS_TARGET_UTIL.GRANT_ROLE('DS$AUDIT_SETTING_ROLE');`<!--<br/>--> 
 `EXECUTE DS_TARGET_UTIL.GRANT_ROLE('DS$DATA_DISCOVERY_ROLE');`<!--<br/>--> 
 <!--Image 1.1-->
-![](./images/SQLexecute.png "")<!--<br/>-->
+![](./images/1.24.png "")<!--<br/>-->
 <!--<img src= "./images/SQLexecute.png" align="left" height="48"width="48">-->
 **NOTE** 1. If you don't have any data, populate your database with some new users and data to effectively use this lab. Use the script [here](https://objectstorage.us-phoenix-1.oraclecloud.com/n/orasenatdecaretlhealth01/b/Workshop/o/UsersScript.sql) to add new users.
 2. Login as **HCM1** user, use the script [here](https://objectstorage.us-phoenix-1.oraclecloud.com/n/orasenatdecaretlhealth01/b/Workshop/o/TableScript.sql) to add new tables to the HCM1 schema.
+![](./images/1.21.png "")
+
+![](./images/1.23.png "")
 
 
 ## Part 2. Assess Database Configurations with Oracle Data Safe
