@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this *Optional Bonus* lab, you will learn about how a finance team can adress analytics questions through Oracle Fusion ERP Analytics.
+In this lab, you will learn about how a finance team can adress analytics questions through Oracle Fusion ERP Analytics.
 
 Finance teams are under enormous pressure to generate more insights, faster, from their financial systems and other critical data sources. But for most organizations, far too much time is spent manually sourcing, managing, preparing, and securing data – leaving far too little time for true analysis and insight.
 
@@ -49,7 +49,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 2. Click on the upper left **hamburger menu** icon to see the following:
     1. **Decks** are how KPIs are presented and organized. 
-    2. **KPIs** is where you can createand edit the Key Performance Indicators library.
+    2. **KPIs** is where you can create and edit the Key Performance Indicators library.
     3. **Projects** is where you can create and edit analysis and reports.
     4. **Data** is where you manage data access and workflows. 
 
@@ -73,7 +73,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 1. From the **Financial Ratios** deck, click the **filter icon** on the top right.
 
-2. **Note** that the current deck is filtered by Current Quarter by default. You can easily change the filter here to focus on a different context, such as business unit, cost center, time, etc.
+2. **Note** that the current deck is filtered by Current Quarter by default. You can easily change the filter here to focus on a different context, such as business unit, cost center, time, etc. For instance, feel free to click on the **Time** field to change it to **Previous** and **Year** and then click on **Apply**. Feel free to try this on the other pre-built decks to see how the data and according visualizations change.
 
 3. Click the **filter icon** again to make it disappear.
 
@@ -98,9 +98,9 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 2. From each KPI, it’s very easy to drill into deeper insights about your finance data. Let’s drill in to OPEX to explore further.
 
-3. Click on the **OPEX KPI card hamburger menu icon**.
+3. Click on the **OPEX** KPI card **hamburger menu icon**.
 
-4. Select **Operating Expense Analysis**.
+4. Select **Operating Expense Analysis PL**.
 
 ![](./images/6.png " ")
 
@@ -147,7 +147,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 1. **Scroll** through the KPI library so you can see all of the out of the box KPIs.
 
-2. Select **Payroll Cost PL KPI**
+2. Select **Payroll Cost PL** KPI
 
 3. **Note**: You see two Payroll Cost KPIs with very similar names, because one of them is a custom KPI. Be sure to select **Payroll Cost PL**.
 
@@ -257,7 +257,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 1. Now let’s fast forward. Our business analyst, Lizzy, has completed additional analysis on this issue. She can easily share it back with us by attaching it right to the KPI. Let’s take a look at her analysis.
 
-2. Click on the **HR Payroll and Attrition Analysis link**.
+2. Click on the **HR Payroll and Attrition Analysis** link.
 
 ![](./images/19.png " ")
 
@@ -715,7 +715,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 5:** 
 
-1. Let's download an excel dataset file from this workshop to load into your instance. You can download it by clicking on the following text link: [Download supplier\_risk\_ratings.xlsx here](./files/supplier_risk_ratings.xlsx). Then, return back to Fusion ERP Analytics in your browser window.
+1. Let's download an excel dataset file from this workshop to load into your instance. You can download it by clicking on the following text link: [Download supplier\_risk\_ratings.xlsx here](https://objectstorage.us-ashburn-1.oraclecloud.com/p/vq-e_pds9JCsEbPmtqIxazJWvGepb0qV6vYyCCa2qis/n/orasenatdpltoci01/b/cloud-data-platform-workshop-files/o/supplier_risk_ratings.xlsx). Then, return back to Fusion ERP Analytics in your browser window.
 
 2. In the data pane, click on the **+ icon** at the top and then select **Add Data Set** in the popup window.
 
@@ -831,7 +831,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ## Acknowledgements
 
-- **Author** - NA Cloud Engineering - Austin (Khader Mohiuddin, Philip Pavlov, Jess Rein, Naresh Sanodariya, Parshwa Shah)
-- **Last Updated By/Date** - Philip Pavlov, Cloud Engineer, July 2020
+- **Author** - NA Cloud Engineering - Austin (Khader Mohiuddin, Philip Pavlov, Jess Rein, Parshwa Shah)
+- **Last Updated By/Date** - Philip Pavlov, Cloud Engineer, September 2020
 
 See an issue?  Please open up a request [here](https://github.com/oracle/learning-library/issues).   Please include the workshop name and lab in your request.    Please include the workshop name and lab in your request. 
