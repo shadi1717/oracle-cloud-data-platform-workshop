@@ -694,24 +694,24 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 3:** 
 
-1. Click **AP Analysis Lab**
+1. Click **AP Analysis Lab Demo**
 
 ![](./images/4-3.png " ")
 
 ### **Step 4:** 
 
 1. This project contains analyses across two subject areas, AP Invoices and AP Balances. Visualizations include:
-    1. AP Balances quarterly trend.
+    1. AP Balances with a quarterly trend.
     2. Top 10 suppliers with AP Balances.
-    3. Trailing 12 months for AP invoice transactions.
+    3. Top Invoice Amounts by Payment Terms and Supplier Names.
 
 2. Click the **+ icon** at the bottom of the screen to create a new canvas.
 
-![](./images/4-4.png " ")
+![](./images/part4-1new2.png " ")
 
 3. Please rename this new canvas to **Analysis ~InsertYourInitialsHere~** by clicking on the **small down arrow icon** of the canvas and then **Rename**
 
-![](./images/part2-2.png " ")
+![](./images/part4-1new3.png " ")
 
 ### **Step 5:** 
 
@@ -759,7 +759,7 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 ### **Step 9:** 
 
-1. Let’s create a visualization that uses data from both the subject area and the excel file. In the data pane, click the **Supplier** folder to expand it and then double click on **Supplier Name**. 
+1. Let’s create a visualization that uses data from both the subject area and the excel file. In the data pane, confirm you are in the **Financials - AP Invoices Subject Area** and click the **Supplier** folder to expand it and then double click on **Supplier Name**. 
 
 ![](./images/4-9-1.png " ")
 
