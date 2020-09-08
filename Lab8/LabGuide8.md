@@ -688,15 +688,13 @@ This workshop is designed to give you a hands-on experience with both the pre-bu
 
 2. Click **Projects and Reports**
 
-3. Click **Modified** and Select **Name**
-
 ![](./images/4-2.png " ")
 
 ### **Step 3:** 
 
-1. Click **AP Analysis Lab Demo**
+1. In the search bar, input **AP Analysis Lab Demo** and click on the **AP Analysis Lab Demo** project
 
-![](./images/4-3.png " ")
+![](./images/step4-project.png " ")
 
 ### **Step 4:** 
 
